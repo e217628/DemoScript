@@ -1,0 +1,14 @@
+GET /getAllDomainName.jxp?partnerUniqueId=5 HTTP/1.1
+Host: rewardno.saasm2m.com
+Connection: keep-alive
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="97", "Chromium";v="97"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: */*
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,nb;q=0.9,nn;q=0.8,nb-NO;q=0.7,no;q=0.6,en-US;q=0.5
+

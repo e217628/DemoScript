@@ -1,0 +1,23 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Access-Control-Allow-Origin: https://www.google.com
+Access-Control-Allow-Credentials: true
+Vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site
+X-Content-Type-Options: nosniff
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Tue, 01 Feb 2022 10:59:34 GMT
+Strict-Transport-Security: max-age=31536000
+Content-Security-Policy: script-src 'report-sample' 'nonce-18LCD2OcbqpzrKs2oQw6rg' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/IdentityListAccountsHttp/cspreport;worker-src 'self'
+Content-Security-Policy: script-src 'nonce-18LCD2OcbqpzrKs2oQw6rg' 'self' https://apis.google.com https://ssl.gstatic.com https://www.google.com https://www.gstatic.com https://www.google-analytics.com;report-uri /_/IdentityListAccountsHttp/cspreport
+Cross-Origin-Opener-Policy: same-origin; report-to="IdentityListAccountsHttp"
+Report-To: {"group":"IdentityListAccountsHttp","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/IdentityListAccountsHttp/external"}]}
+Content-Encoding: gzip
+Server: ESF
+X-XSS-Protection: 0
+Set-Cookie: SIDCC=AJi4QfG64v-J-h-Z6Ht8LZOtiSm5bDtIuYWt76RLTeYZNWO7x0uwqoTBXWl0MZLCsGtfIZcj3A; expires=Wed, 01-Feb-2023 10:59:34 GMT; path=/; domain=.google.com; priority=high
+Set-Cookie: __Secure-3PSIDCC=AJi4QfH3yRpwV6UxInrp6czAL1JeyDzMXoekJ3a-GAJnzdPdWnHrFFTLrJse1i98XUuALF4GfHs; expires=Wed, 01-Feb-2023 10:59:34 GMT; path=/; domain=.google.com; Secure; HttpOnly; priority=high; SameSite=none
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+Transfer-Encoding: chunked
+

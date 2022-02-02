@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\sahuvran\Desktop\Demoblaze\DemoScript
+-IC:\Program Files (x86)\Micro Focus\Virtual User Generator\include
+-ec:\users\sahuvran\desktop\demoblaze\demoscript\\logfile.log
+c:\users\sahuvran\desktop\demoblaze\demoscript\\combined_DemoScript.c
+c:\users\sahuvran\desktop\demoblaze\demoscript\\pre_cci.c

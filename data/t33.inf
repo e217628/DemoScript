@@ -1,0 +1,15 @@
+[t33]
+FileName1=t33.json
+URL1=https://api.demoblaze.com/bycat
+Total=3
+RequestHeaderFile=t33_RequestHeader.txt
+RequestBodyFile=t33_RequestBody.txt
+ResponseHeaderFile=t33_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_33.xml
+FileName2=t33_dell.jfif
+URL2=https://www.demoblaze.com/imgs/dell.jpg
+FileName3=t33_macbook_air.jfif
+URL3=https://www.demoblaze.com/imgs/macbook_air.jpg
+[ProtocolInfo]
+ProtocolId=QTWeb

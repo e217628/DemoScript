@@ -1,0 +1,14 @@
+POST /ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard HTTP/1.1
+Host: accounts.google.com
+Connection: keep-alive
+Content-Length: 1
+Origin: https://www.google.com
+Content-Type: application/x-www-form-urlencoded
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,nb;q=0.9,nn;q=0.8,nb-NO;q=0.7,no;q=0.6,en-US;q=0.5
+Cookie: SID=Gwi_StrXOnrWSCbPlprBQleGnCVes93H35Z5uR2W470Kbaw4mB5zpSrB45_FMCjujo7xfg.; __Secure-1PSID=Gwi_StrXOnrWSCbPlprBQleGnCVes93H35Z5uR2W470Kbaw4r_ckCtVXUBwnfitZTQA76g.; __Secure-3PSID=Gwi_StrXOnrWSCbPlprBQleGnCVes93H35Z5uR2W470Kbaw4AZKFcahnD7IMuvS7drbMUA.; LSID=o.chat.google.com|o.mail.google.com|s.NO|s.youtube:Gwi_ShPayWpihUIQyQgxfxnc4Ij7b0exBEkmcSAHJ_w8FB1sapWr2TS_CBOmR9J-DIVGvg.; __Host-1PLSID=o.chat.google.com|o.mail.google.com|s.NO|s.youtube:Gwi_ShPayWpihUIQyQgxfxnc4Ij7b0exBEkmcSAHJ_w8FB1sClcj3psV2IkpWu0SpmZ3OQ.; __Host-3PLSID=o.chat.google.com|o.mail.google.com|s.NO|s.youtube:Gwi_ShPayWpihUIQyQgxfxnc4Ij7b0exBEkmcSAHJ_w8FB1sRGU4Ds8YcT__aXpkwdACeg.; HSID=AoNG-tMg8-W1d2r93; SSID=AejX5GrZ4fe2Y4v2p; APISID=r2Og5dr0T88vVLMl/Aoif8wGI8NsNO9tPx; SAPISID=x0wt18S59pZswuz2/A3n9kgtu4Q-MFYHHV; __Secure-1PAPISID=x0wt18S59pZswuz2/A3n9kgtu4Q-MFYHHV; __Secure-3PAPISID=x0wt18S59pZswuz2/A3n9kgtu4Q-MFYHHV; ACCOUNT_CHOOSER=AFx_qI6Y43C2Oo_7WzEXYh7ZhwlOFVPBLe942m7gf37PjONDNA4twq8Ty4oTU4MtgHI7WZzEhlwi9m1qWIYcj8lJut8BvKxtx7_rkL4COYripeL75Au9mlFQV5Eie_t93z74K79xbKGg9Twn9GaUFQ7b2ewaMPJdq_1tmldAJ8fmagSm_PCerHquANt2yitjPS73ZP31nH0lWmnPX7FzazP6vqDm3mUNSQ; __Host-GAPS=1:6y-H-NGMEX1Ngvanl4we--bhh6h5xcdLsBiCs2Q7oZSeOaVsAXOS9v0B6aslsygWqaEgduiSH1xPWve5kG6Eq2Uv50k6Lw:gMymXkOgGfOK-kyV; NID=511=u-eKlpUNoP3SW7niU0tRaipAenKh7Y9Vvest3uCiMOWVzpxLYnHt7A5jMbi7K1NBOs1YJ9s8tBOnNLt_KxaEOyeTvN7khXsyFqN9lea1F9cC4LRP9nxUcxC2b1Nt0OwUXCmXI5Dm4GIzfch2rSM20O81aWhXMeVIuoUrtI_0UH2C-Faqq9Sk94ICe_UQb6JgXRJeiUxk2t4qXGPCq8F2uNls0jtXVcR5i27Ca0HBq02md6M8XltW3S68LxLZq3FkV_-XeVEF6dDVp2oYqTgyKkXEy4ayM1OuIFkNn5kZA4XiBZLjtTNHTM9_PewUHow_Qs10n3pIGZyQWyo; SIDCC=AJi4QfHe_ZRMv4w64oqEQsUW2Wt1PyL5QSEbbAoqtPFZlJpp3Rgi23l8uhPJ-1xLCNGjYHR7AA; __Secure-3PSIDCC=AJi4QfHgD7hHGC5W_biL6BTH0RJujhFThtQjEGUWsdYKIJj-O26ayk__E1e7-lCJe-Z_xbuW6xI
+

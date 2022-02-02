@@ -1,0 +1,18 @@
+POST /view HTTP/1.1
+Host: api.demoblaze.com
+Connection: keep-alive
+Content-Length: 10
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="97", "Chromium";v="97"
+Accept: */*
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: https://www.demoblaze.com
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://www.demoblaze.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en
+

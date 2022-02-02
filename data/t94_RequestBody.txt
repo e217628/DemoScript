@@ -1,0 +1,2 @@
+"{\"id\":\"70948e20-89bf-431c-28f1-f8012951c10f\",\"cookie\":\"aXRlcmE3ODkxNjQ0MzE0\",\"prod_id"
+"\":5,\"flag\":true}"

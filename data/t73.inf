@@ -1,0 +1,11 @@
+[t73]
+FileName1=t73_getAllDomainName.json
+URL1=https://rewardno.saasm2m.com/getAllDomainName.jxp?partnerUniqueId=5
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_73.xml
+RequestHeaderFile=t73_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t73_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

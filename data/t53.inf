@@ -1,0 +1,17 @@
+[t53]
+FileName1=t53.html
+URL1=https://www.demoblaze.com/cart.html
+Total=4
+RequestHeaderFile=t53_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t53_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_53.xml
+FileName2=t53_sweetalert.css
+URL2=https://www.demoblaze.com/node_modules/bootstrap-sweetalert/dist/sweetalert.css
+FileName3=t53_cart.html
+URL3=https://www.demoblaze.com/js/cart.js
+FileName4=t53_sweetalert.min.html
+URL4=https://www.demoblaze.com/node_modules/bootstrap-sweetalert/dist/sweetalert.min.js
+[ProtocolInfo]
+ProtocolId=QTWeb

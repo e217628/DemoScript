@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Access-Control-Allow-Origin: https://www.demoblaze.com
+Access-Control-Allow-Credentials: true
+Vary: Origin
+X-Cloud-Trace-Context: 1ab9b8bb4e7aa613baa9e64983452b4f
+Date: Tue, 01 Feb 2022 11:04:15 GMT
+Server: Google Frontend
+Content-Length: 0
+

@@ -1,0 +1,15 @@
+[t10]
+FileName1=t10_config.json
+URL1=https://www.demoblaze.com/config.json
+Total=3
+ContentType=application/json
+SnapshotXmlFile=snapshot_10.xml
+RequestHeaderFile=t10_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t10_ResponseHeader.txt
+FileName2=t10_favicon.html
+URL2=https://www.demoblaze.com/favicon.ico
+FileName3=t10_ChNDaHJvbWUvOTcuMC40NjkyLjk5Eh4JHPnZyVDpnmQSBQ1ZSoMiEgUNHHpOqRIFDeanSuQSFwmLOdRo7KyeOxIFDTZHxXISBQ0zEFmmEhcJxvlVs6rftUkSBQ2IsVWPEgUNxNLJPA==.txt
+URL3=https://content-autofill.googleapis.com/v1/pages/ChNDaHJvbWUvOTcuMC40NjkyLjk5Eh4JHPnZyVDpnmQSBQ1ZSoMiEgUNHHpOqRIFDeanSuQSFwmLOdRo7KyeOxIFDTZHxXISBQ0zEFmmEhcJxvlVs6rftUkSBQ2IsVWPEgUNxNLJPA==?alt=proto
+[ProtocolInfo]
+ProtocolId=QTWeb

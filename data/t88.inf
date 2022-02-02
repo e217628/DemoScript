@@ -1,0 +1,13 @@
+[t88]
+FileName1=t88.html
+URL1=https://www.demoblaze.com/prod.html?idp_=5
+Total=2
+RequestHeaderFile=t88_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t88_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_88.xml
+FileName2=t88_prod.html
+URL2=https://www.demoblaze.com/js/prod.js
+[ProtocolInfo]
+ProtocolId=QTWeb

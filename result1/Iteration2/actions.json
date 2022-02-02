@@ -1,0 +1,436 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP64",
+                "stepName": "Url: www.demoblaze.com",
+                "infFile": "t1.inf",
+                "time": 1643717424535
+            },
+            {
+                "stepId": "STEP65",
+                "stepName": "Url: config.json",
+                "infFile": "t2.inf",
+                "time": 1643717424750
+            },
+            {
+                "stepId": "STEP66",
+                "stepName": "Url: entries",
+                "infFile": "t3.inf",
+                "time": 1643717425045
+            },
+            {
+                "stepId": "STEP67",
+                "stepName": "Custom Request: signup",
+                "infFile": "t4.inf",
+                "time": 1643717425297
+            },
+            {
+                "stepId": "STEP68",
+                "stepName": "Custom Request: signup_2",
+                "infFile": "t5.inf",
+                "time": 1643717425694
+            },
+            {
+                "stepId": "STEP69",
+                "stepName": "Custom Request: login",
+                "infFile": "t6.inf",
+                "time": 1643717427966
+            },
+            {
+                "stepId": "STEP70",
+                "stepName": "Custom Request: login_2",
+                "infFile": "t7.inf",
+                "time": 1643717428334
+            },
+            {
+                "stepId": "STEP71",
+                "stepName": "Url: www.demoblaze.com_2",
+                "infFile": "t8.inf",
+                "time": 1643717428592
+            },
+            {
+                "stepId": "STEP72",
+                "stepName": "Custom Request: check",
+                "infFile": "t9.inf",
+                "time": 1643717428841
+            },
+            {
+                "stepId": "STEP73",
+                "stepName": "Url: entries_2",
+                "infFile": "t10.inf",
+                "time": 1643717429099
+            },
+            {
+                "stepId": "STEP74",
+                "stepName": "Custom Request: check_2",
+                "infFile": "t11.inf",
+                "time": 1643717429355
+            },
+            {
+                "stepId": "STEP75",
+                "stepName": "Custom Request: bycat",
+                "infFile": "t12.inf",
+                "time": 1643717431611
+            },
+            {
+                "stepId": "STEP76",
+                "stepName": "Custom Request: bycat_2",
+                "infFile": "t13.inf",
+                "time": 1643717431849
+            },
+            {
+                "stepId": "STEP77",
+                "stepName": "Url: prod.html",
+                "infFile": "t14.inf",
+                "time": 1643717432260
+            },
+            {
+                "stepId": "STEP78",
+                "stepName": "Custom Request: check_3",
+                "infFile": "t15.inf",
+                "time": 1643717432493
+            },
+            {
+                "stepId": "STEP79",
+                "stepName": "Custom Request: view",
+                "infFile": "t16.inf",
+                "time": 1643717432730
+            },
+            {
+                "stepId": "STEP80",
+                "stepName": "Custom Request: check_4",
+                "infFile": "t17.inf",
+                "time": 1643717432958
+            },
+            {
+                "stepId": "STEP81",
+                "stepName": "Custom Request: view_2",
+                "infFile": "t18.inf",
+                "time": 1643717433210
+            },
+            {
+                "stepId": "STEP82",
+                "stepName": "Custom Request: addtocart",
+                "infFile": "t19.inf",
+                "time": 1643717433438
+            },
+            {
+                "stepId": "STEP83",
+                "stepName": "Custom Request: addtocart_2",
+                "infFile": "t20.inf",
+                "time": 1643717433849
+            },
+            {
+                "stepId": "STEP84",
+                "stepName": "Url: index.html",
+                "infFile": "t21.inf",
+                "time": 1643717435581
+            },
+            {
+                "stepId": "STEP85",
+                "stepName": "Custom Request: check_5",
+                "infFile": "t22.inf",
+                "time": 1643717435944
+            },
+            {
+                "stepId": "STEP86",
+                "stepName": "Url: entries_3",
+                "infFile": "t23.inf",
+                "time": 1643717436192
+            },
+            {
+                "stepId": "STEP87",
+                "stepName": "Custom Request: check_6",
+                "infFile": "t24.inf",
+                "time": 1643717436426
+            },
+            {
+                "stepId": "STEP88",
+                "stepName": "Custom Request: bycat_3",
+                "infFile": "t25.inf",
+                "time": 1643717436644
+            },
+            {
+                "stepId": "STEP89",
+                "stepName": "Custom Request: bycat_4",
+                "infFile": "t26.inf",
+                "time": 1643717436899
+            },
+            {
+                "stepId": "STEP90",
+                "stepName": "Url: prod.html_2",
+                "infFile": "t27.inf",
+                "time": 1643717437155
+            },
+            {
+                "stepId": "STEP91",
+                "stepName": "Custom Request: view_3",
+                "infFile": "t28.inf",
+                "time": 1643717437390
+            },
+            {
+                "stepId": "STEP92",
+                "stepName": "Custom Request: check_7",
+                "infFile": "t29.inf",
+                "time": 1643717437663
+            },
+            {
+                "stepId": "STEP93",
+                "stepName": "Custom Request: view_4",
+                "infFile": "t30.inf",
+                "time": 1643717437934
+            },
+            {
+                "stepId": "STEP94",
+                "stepName": "Custom Request: addtocart_3",
+                "infFile": "t31.inf",
+                "time": 1643717438164
+            },
+            {
+                "stepId": "STEP95",
+                "stepName": "Custom Request: addtocart_4",
+                "infFile": "t32.inf",
+                "time": 1643717438565
+            },
+            {
+                "stepId": "STEP96",
+                "stepName": "Url: index.html_2",
+                "infFile": "t33.inf",
+                "time": 1643717438973
+            },
+            {
+                "stepId": "STEP97",
+                "stepName": "Custom Request: check_8",
+                "infFile": "t34.inf",
+                "time": 1643717439359
+            },
+            {
+                "stepId": "STEP98",
+                "stepName": "Url: entries_4",
+                "infFile": "t35.inf",
+                "time": 1643717439618
+            },
+            {
+                "stepId": "STEP99",
+                "stepName": "Custom Request: check_9",
+                "infFile": "t36.inf",
+                "time": 1643717439854
+            },
+            {
+                "stepId": "STEP100",
+                "stepName": "Custom Request: bycat_5",
+                "infFile": "t37.inf",
+                "time": 1643717440076
+            },
+            {
+                "stepId": "STEP101",
+                "stepName": "Custom Request: bycat_6",
+                "infFile": "t38.inf",
+                "time": 1643717440322
+            },
+            {
+                "stepId": "STEP102",
+                "stepName": "Url: prod.html_3",
+                "infFile": "t39.inf",
+                "time": 1643717440556
+            },
+            {
+                "stepId": "STEP103",
+                "stepName": "Custom Request: view_5",
+                "infFile": "t40.inf",
+                "time": 1643717440787
+            },
+            {
+                "stepId": "STEP104",
+                "stepName": "Custom Request: check_10",
+                "infFile": "t41.inf",
+                "time": 1643717441030
+            },
+            {
+                "stepId": "STEP105",
+                "stepName": "Custom Request: view_6",
+                "infFile": "t42.inf",
+                "time": 1643717441283
+            },
+            {
+                "stepId": "STEP106",
+                "stepName": "Custom Request: addtocart_5",
+                "infFile": "t43.inf",
+                "time": 1643717441499
+            },
+            {
+                "stepId": "STEP107",
+                "stepName": "Custom Request: addtocart_6",
+                "infFile": "t44.inf",
+                "time": 1643717441885
+            },
+            {
+                "stepId": "STEP108",
+                "stepName": "Url: cart.html",
+                "infFile": "t45.inf",
+                "time": 1643717444372
+            },
+            {
+                "stepId": "STEP109",
+                "stepName": "Custom Request: check_11",
+                "infFile": "t46.inf",
+                "time": 1643717444634
+            },
+            {
+                "stepId": "STEP110",
+                "stepName": "Custom Request: viewcart",
+                "infFile": "t47.inf",
+                "time": 1643717444847
+            },
+            {
+                "stepId": "STEP111",
+                "stepName": "Custom Request: check_12",
+                "infFile": "t48.inf",
+                "time": 1643717445094
+            },
+            {
+                "stepId": "STEP112",
+                "stepName": "Custom Request: viewcart_2",
+                "infFile": "t49.inf",
+                "time": 1643717445397
+            },
+            {
+                "stepId": "STEP113",
+                "stepName": "Custom Request: view_7",
+                "infFile": "t50.inf",
+                "time": 1643717445611
+            },
+            {
+                "stepId": "STEP114",
+                "stepName": "Custom Request: view_8",
+                "infFile": "t51.inf",
+                "time": 1643717445834
+            },
+            {
+                "stepId": "STEP115",
+                "stepName": "Custom Request: view_9",
+                "infFile": "t52.inf",
+                "time": 1643717446069
+            },
+            {
+                "stepId": "STEP116",
+                "stepName": "Custom Request: view_10",
+                "infFile": "t53.inf",
+                "time": 1643717446317
+            },
+            {
+                "stepId": "STEP117",
+                "stepName": "Custom Request: view_11",
+                "infFile": "t54.inf",
+                "time": 1643717446563
+            },
+            {
+                "stepId": "STEP118",
+                "stepName": "Custom Request: view_12",
+                "infFile": "t55.inf",
+                "time": 1643717446794
+            },
+            {
+                "stepId": "STEP119",
+                "stepName": "Custom Request: deletecart",
+                "infFile": "t56.inf",
+                "time": 1643717449064
+            },
+            {
+                "stepId": "STEP120",
+                "stepName": "Custom Request: deletecart_2",
+                "infFile": "t57.inf",
+                "time": 1643717449298
+            },
+            {
+                "stepId": "STEP121",
+                "stepName": "Url: index.html_3",
+                "infFile": "t58.inf",
+                "time": 1643717450827
+            },
+            {
+                "stepId": "STEP122",
+                "stepName": "Custom Request: check_13",
+                "infFile": "t59.inf",
+                "time": 1643717451112
+            },
+            {
+                "stepId": "STEP123",
+                "stepName": "Url: entries_5",
+                "infFile": "t60.inf",
+                "time": 1643717451447
+            },
+            {
+                "stepId": "STEP124",
+                "stepName": "Custom Request: check_14",
+                "infFile": "t61.inf",
+                "time": 1643717451713
+            },
+            {
+                "stepId": "STEP125",
+                "stepName": "Url: index.html_4",
+                "infFile": "t62.inf",
+                "time": 1643717453990
+            },
+            {
+                "stepId": "STEP126",
+                "stepName": "Url: entries_6",
+                "infFile": "t63.inf",
+                "time": 1643717454264
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "Demo_1_Homepage",
+                "rawStartTime": 1643717422851,
+                "rawEndTime": 1643717425049,
+                "thinkTime": 0.0,
+                "wastedTime": 0.13466596603393556
+            },
+            {
+                "transactionName": "Demo_2_SignUp",
+                "rawStartTime": 1643717425064,
+                "rawEndTime": 1643717425702,
+                "thinkTime": 0.0,
+                "wastedTime": 0.027750492095947267
+            },
+            {
+                "transactionName": "Demo_3_login",
+                "rawStartTime": 1643717427745,
+                "rawEndTime": 1643717429358,
+                "thinkTime": 0.0,
+                "wastedTime": 0.08197903633117676
+            },
+            {
+                "transactionName": "Demo_4_addproducts",
+                "rawStartTime": 1643717431392,
+                "rawEndTime": 1643717441899,
+                "thinkTime": 0.0,
+                "wastedTime": 0.5702254772186279
+            },
+            {
+                "transactionName": "Demo_5_CheckCrat",
+                "rawStartTime": 1643717443932,
+                "rawEndTime": 1643717446804,
+                "thinkTime": 0.0,
+                "wastedTime": 0.16075611114501954
+            },
+            {
+                "transactionName": "Demo_6_PlaceOrder",
+                "rawStartTime": 1643717448839,
+                "rawEndTime": 1643717451715,
+                "thinkTime": 0.0,
+                "wastedTime": 0.1853175163269043
+            },
+            {
+                "transactionName": "Demo_7_logout",
+                "rawStartTime": 1643717453748,
+                "rawEndTime": 1643717454271,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0323944091796875
+            }
+        ]
+    }
+]

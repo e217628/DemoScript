@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Content-Type: application/json
+Access-Control-Allow-Origin: https://www.demoblaze.com
+Access-Control-Allow-Credentials: true
+Vary: Origin
+X-Cloud-Trace-Context: eaa4d1874815ff45e168100531936949
+Date: Tue, 01 Feb 2022 11:16:57 GMT
+Server: Google Frontend
+Content-Length: 3
+

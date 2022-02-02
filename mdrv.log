@@ -1,0 +1,986 @@
+Virtual User Script started at: 2/1/2022 1:09:50 PM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2020.3.0 for Windows 10; build 356 (Sep 21 2020 19:30:48)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\sahuvran\Desktop\Demoblaze\DemoScript\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(5): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(5): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(9): Notify: Transaction "Demo_1_Homepage" started.
+Action.c(11): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(11): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(14): web_url("www.demoblaze.com") started  	[MsgId: MMSG-26355]
+Action.c(14): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(14): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(14): Found resource "https://www.demoblaze.com/node_modules/bootstrap/dist/css/bootstrap.min.css" in HTML "https://www.demoblaze.com/"  	[MsgId: MMSG-26659]
+Action.c(14): Found resource "https://www.demoblaze.com/node_modules/video.js/dist/video-js.min.css" in HTML "https://www.demoblaze.com/"  	[MsgId: MMSG-26659]
+Action.c(14): Found resource "https://www.demoblaze.com/css/latofonts.css" in HTML "https://www.demoblaze.com/"  	[MsgId: MMSG-26659]
+Action.c(14): Found resource "https://www.demoblaze.com/css/latostyle.css" in HTML "https://www.demoblaze.com/"  	[MsgId: MMSG-26659]
+Action.c(14): Downloading resource "https://chromestore.aternity.com/update/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromecrx&prodchannel=&prodversion=97.0.4692.99&lang=en-US&acceptformat=crx3&x=id%3Ddcjplbbbfjpafkmpiaobikmlmfbceafm%26v%3D12.1.4.17%26installsource%3Dnotfromwebstore%26installedby%3Dpolicy%26uc" (specified by argument number 9)  	[MsgId: MMSG-26577]
+Action.c(14): Downloading resource "https://www.demoblaze.com/css/fonts/Lato-Regular.woff2" (specified by argument number 12)  	[MsgId: MMSG-26577]
+Action.c(14): Downloading resource "https://www.demoblaze.com/imgs/front.jpg" (specified by argument number 15)  	[MsgId: MMSG-26577]
+Action.c(14): Downloading resource "https://hls.demoblaze.com/index.m3u8" (specified by argument number 17)  	[MsgId: MMSG-26577]
+Action.c(14): Downloading resource "https://hls.demoblaze.com/about_demo_hls_600k.m3u8" (specified by argument number 19)  	[MsgId: MMSG-26577]
+Action.c(14): Downloading resource "https://www.demoblaze.com/imgs/galaxy_s6.jpg" (specified by argument number 21)  	[MsgId: MMSG-26577]
+Action.c(14): Downloading resource "https://www.demoblaze.com/imgs/Nexus_6.jpg" (specified by argument number 23)  	[MsgId: MMSG-26577]
+Action.c(14): Downloading resource "https://www.demoblaze.com/imgs/xperia_z5.jpg" (specified by argument number 25)  	[MsgId: MMSG-26577]
+Action.c(14): Downloading resource "https://www.demoblaze.com/imgs/iphone_6.jpg" (specified by argument number 27)  	[MsgId: MMSG-26577]
+Action.c(14): Downloading resource "https://www.demoblaze.com/imgs/Lumia_1520.jpg" (specified by argument number 29)  	[MsgId: MMSG-26577]
+Action.c(14): Downloading resource "https://www.demoblaze.com/imgs/HTC_M9.jpg" (specified by argument number 31)  	[MsgId: MMSG-26577]
+Action.c(14): Downloading resource "https://www.demoblaze.com/imgs/sony_vaio_5.jpg" (specified by argument number 33)  	[MsgId: MMSG-26577]
+Action.c(14): Found resource "https://www.demoblaze.com/bm.png" in HTML "https://www.demoblaze.com/"  	[MsgId: MMSG-26659]
+Action.c(14): Found resource "https://www.demoblaze.com/Samsung1.jpg" in HTML "https://www.demoblaze.com/"  	[MsgId: MMSG-26659]
+Action.c(14): Found resource "https://www.demoblaze.com/nexus1.jpg" in HTML "https://www.demoblaze.com/"  	[MsgId: MMSG-26659]
+Action.c(14): Found resource "https://www.demoblaze.com/iphone1.jpg" in HTML "https://www.demoblaze.com/"  	[MsgId: MMSG-26659]
+Action.c(14): Found resource "https://www.demoblaze.com/node_modules/jquery/dist/jquery.min.js" in HTML "https://www.demoblaze.com/"  	[MsgId: MMSG-26659]
+Action.c(14): Found resource "https://www.demoblaze.com/node_modules/video.js/dist/video.min.js" in HTML "https://www.demoblaze.com/"  	[MsgId: MMSG-26659]
+Action.c(14): Found resource "https://www.demoblaze.com/node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.min.js" in HTML "https://www.demoblaze.com/"  	[MsgId: MMSG-26659]
+Action.c(14): Found resource "https://www.demoblaze.com/node_modules/tether/dist/js/tether.min.js" in HTML "https://www.demoblaze.com/"  	[MsgId: MMSG-26659]
+Action.c(14): Found resource "https://www.demoblaze.com/node_modules/bootstrap/dist/js/bootstrap.min.js" in HTML "https://www.demoblaze.com/"  	[MsgId: MMSG-26659]
+Action.c(14): Found resource "https://www.demoblaze.com/js/index.js" in HTML "https://www.demoblaze.com/"  	[MsgId: MMSG-26659]
+Action.c(14): Registered web_reg_find successful for "Text=STORE" (count=3)  	[MsgId: MMSG-26364]
+Action.c(14): web_url("www.demoblaze.com") was successful, 1667878 body bytes, 8367 header bytes  	[MsgId: MMSG-26386]
+Action.c(36): web_url("config.json") started  	[MsgId: MMSG-26355]
+Action.c(36): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(36): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(36): web_url("config.json") was successful, 84 body bytes, 295 header bytes  	[MsgId: MMSG-26386]
+Action.c(45): web_url("entries") started  	[MsgId: MMSG-26355]
+Action.c(45): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(45): web_url("entries") was successful, 1055 body bytes, 277 header bytes  	[MsgId: MMSG-26386]
+Action.c(54): Notify: Transaction "Demo_1_Homepage" ended with a "Pass" status (Duration: 2.5467 Wasted Time: 0.2272).
+Action.c(59): Notify: Transaction "Demo_2_SignUp" started.
+Action.c(62): web_custom_request("signup") started  	[MsgId: MMSG-26355]
+Action.c(62): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(62): web_custom_request("signup") was successful, 0 body bytes, 229 header bytes  	[MsgId: MMSG-26386]
+Action.c(72): web_custom_request("signup_2") started  	[MsgId: MMSG-26355]
+Action.c(72): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(72): Notify: Parameter Substitution: parameter "UserName" =  "itera789"
+Action.c(72): Notify: Next row for parameter Password = 1 [table  = Password].
+Action.c(72): Notify: Parameter Substitution: parameter "Password" =  "aXRlcmE3ODk="
+Action.c(72): web_custom_request("signup_2") was successful, 70 body bytes, 271 header bytes  	[MsgId: MMSG-26386]
+Action.c(84): Notify: Transaction "Demo_2_SignUp" ended with a "Pass" status (Duration: 0.4918 Wasted Time: 0.0154).
+Action.c(86): Think time - Waiting 2.00 seconds (according to limit).
+Action.c(86): lr_think_time: 2.00 seconds (recorded think time was 5.00 seconds).
+Action.c(88): Notify: Transaction "Demo_3_login" started.
+Action.c(93): web_custom_request("login") started  	[MsgId: MMSG-26355]
+Action.c(93): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(93): web_custom_request("login") was successful, 0 body bytes, 229 header bytes  	[MsgId: MMSG-26386]
+Action.c(104): web_custom_request("login_2") started  	[MsgId: MMSG-26355]
+Action.c(104): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(104): Notify: Parameter Substitution: parameter "UserName" =  "itera789"
+Action.c(104): Notify: Next row for parameter Password = 1 [table  = Password].
+Action.c(104): Notify: Parameter Substitution: parameter "Password" =  "aXRlcmE3ODk="
+Action.c(104): web_custom_request("login_2") was successful, 66 body bytes, 271 header bytes  	[MsgId: MMSG-26386]
+Action.c(117): web_url("www.demoblaze.com_2") started  	[MsgId: MMSG-26355]
+Action.c(117): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(117): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(117): Retrieving data from cache for "https://www.demoblaze.com/"  	[MsgId: MMSG-26558]
+Action.c(117): Resource "https://www.demoblaze.com/node_modules/bootstrap/dist/css/bootstrap.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(117): Resource "https://www.demoblaze.com/node_modules/video.js/dist/video-js.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(117): Resource "https://www.demoblaze.com/css/latofonts.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(117): Resource "https://www.demoblaze.com/css/latostyle.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(117): Resource "https://www.demoblaze.com/bm.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(117): Resource "https://www.demoblaze.com/Samsung1.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(117): Resource "https://www.demoblaze.com/nexus1.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(117): Resource "https://www.demoblaze.com/iphone1.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(117): Resource "https://www.demoblaze.com/node_modules/jquery/dist/jquery.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(117): Resource "https://www.demoblaze.com/node_modules/video.js/dist/video.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(117): Resource "https://www.demoblaze.com/node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(117): Resource "https://www.demoblaze.com/node_modules/tether/dist/js/tether.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(117): Resource "https://www.demoblaze.com/node_modules/bootstrap/dist/js/bootstrap.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(117): Resource "https://www.demoblaze.com/js/index.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(117): Resource "https://www.demoblaze.com/imgs/front.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(117): Resource "https://www.demoblaze.com/config.json" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(117): Downloading resource "https://www.demoblaze.com/favicon.ico" (specified by argument number 40)  	[MsgId: MMSG-26577]
+Action.c(117): Resource "https://www.demoblaze.com/imgs/galaxy_s6.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(117): Resource "https://www.demoblaze.com/imgs/Lumia_1520.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(117): Resource "https://www.demoblaze.com/imgs/iphone_6.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(117): Resource "https://www.demoblaze.com/imgs/Nexus_6.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(117): Resource "https://www.demoblaze.com/imgs/xperia_z5.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(117): Resource "https://www.demoblaze.com/imgs/HTC_M9.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(117): Resource "https://www.demoblaze.com/imgs/sony_vaio_5.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(117): web_url("www.demoblaze.com_2") was successful, 5214 body bytes, 307 header bytes  	[MsgId: MMSG-26386]
+Action.c(152): web_custom_request("check") started  	[MsgId: MMSG-26355]
+Action.c(152): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(152): web_custom_request("check") was successful, 0 body bytes, 229 header bytes  	[MsgId: MMSG-26386]
+Action.c(162): web_url("entries_2") started  	[MsgId: MMSG-26355]
+Action.c(162): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(162): web_url("entries_2") was successful, 1055 body bytes, 273 header bytes  	[MsgId: MMSG-26386]
+Action.c(171): web_custom_request("check_2") started  	[MsgId: MMSG-26355]
+Action.c(171): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(171): Warning: The string '"token":"aXRlcmE3ODkxNjQ0MzE0"' with parameter delimiters is not a parameter.
+Action.c(171): web_custom_request("check_2") was successful, 109 body bytes, 272 header bytes  	[MsgId: MMSG-26386]
+Action.c(183): Notify: Transaction "Demo_3_login" ended with a "Pass" status (Duration: 1.6353 Wasted Time: 0.0410).
+Action.c(185): Think time - Waiting 2.00 seconds (according to limit).
+Action.c(185): lr_think_time: 2.00 seconds (recorded think time was 4.00 seconds).
+Action.c(187): Notify: Transaction "Demo_4_addproducts" started.
+Action.c(191): web_custom_request("bycat") started  	[MsgId: MMSG-26355]
+Action.c(191): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(191): web_custom_request("bycat") was successful, 0 body bytes, 229 header bytes  	[MsgId: MMSG-26386]
+Action.c(201): web_custom_request("bycat_2") started  	[MsgId: MMSG-26355]
+Action.c(201): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(201): Warning: The string '"cat":"phone"' with parameter delimiters is not a parameter.
+Action.c(201): web_custom_request("bycat_2") was successful, 781 body bytes, 272 header bytes  	[MsgId: MMSG-26386]
+Action.c(214): web_url("prod.html") started  	[MsgId: MMSG-26355]
+Action.c(214): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(214): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(214): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(214): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(214): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(214): Resource "https://www.demoblaze.com/node_modules/bootstrap/dist/css/bootstrap.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(214): Resource "https://www.demoblaze.com/node_modules/video.js/dist/video-js.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(214): Resource "https://www.demoblaze.com/css/latofonts.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(214): Resource "https://www.demoblaze.com/css/latostyle.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(214): Resource "https://www.demoblaze.com/imgs/front.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(214): Resource "https://www.demoblaze.com/css/fonts/Lato-Regular.woff2" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(214): Resource "https://www.demoblaze.com/config.json" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(214): Resource "https://www.demoblaze.com/bm.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(214): Resource "https://www.demoblaze.com/node_modules/jquery/dist/jquery.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(214): Resource "https://www.demoblaze.com/node_modules/video.js/dist/video.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(214): Resource "https://www.demoblaze.com/node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(214): Resource "https://www.demoblaze.com/node_modules/tether/dist/js/tether.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(214): Resource "https://www.demoblaze.com/node_modules/bootstrap/dist/js/bootstrap.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(214): Found resource "https://www.demoblaze.com/js/prod.js" in HTML "https://www.demoblaze.com/prod.html?idp_=5"  	[MsgId: MMSG-26659]
+Action.c(214): web_url("prod.html") was successful, 7342 body bytes, 597 header bytes  	[MsgId: MMSG-26386]
+Action.c(227): web_custom_request("check_3") started  	[MsgId: MMSG-26355]
+Action.c(227): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(227): web_custom_request("check_3") was successful, 0 body bytes, 229 header bytes  	[MsgId: MMSG-26386]
+Action.c(237): web_custom_request("view") started  	[MsgId: MMSG-26355]
+Action.c(237): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(237): web_custom_request("view") was successful, 0 body bytes, 229 header bytes  	[MsgId: MMSG-26386]
+Action.c(249): web_custom_request("check_4") started  	[MsgId: MMSG-26355]
+Action.c(249): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(249): Warning: The string '"token":"aXRlcmE3ODkxNjQ0MzE0"' with parameter delimiters is not a parameter.
+Action.c(249): web_custom_request("check_4") was successful, 114 body bytes, 272 header bytes  	[MsgId: MMSG-26386]
+Action.c(261): web_custom_request("view_2") started  	[MsgId: MMSG-26355]
+Action.c(261): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(261): Warning: The string '"id":"5"' with parameter delimiters is not a parameter.
+Action.c(261): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(261): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(261): Resource "https://www.demoblaze.com/imgs/iphone_6.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(261): web_custom_request("view_2") was successful, 264 body bytes, 272 header bytes  	[MsgId: MMSG-26386]
+Action.c(276): web_custom_request("addtocart") started  	[MsgId: MMSG-26355]
+Action.c(276): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(276): web_custom_request("addtocart") was successful, 0 body bytes, 229 header bytes  	[MsgId: MMSG-26386]
+Action.c(287): web_custom_request("addtocart_2") started  	[MsgId: MMSG-26355]
+Action.c(287): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(287): Warning: The string '"id":"70948e20-89bf-431c-28f1-f8012951c10f","cookie":"aXRlcmE3ODkxNjQ0MzE0","prod_id":5,"flag":true' with parameter delimiters is not a parameter.
+Action.c(287): web_custom_request("addtocart_2") was successful, 0 body bytes, 207 header bytes  	[MsgId: MMSG-26386]
+Action.c(299): web_url("index.html") started  	[MsgId: MMSG-26355]
+Action.c(299): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(299): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(299): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(299): Found resource "https://www.demoblaze.com/node_modules/bootstrap/dist/css/bootstrap.min.css" in HTML "https://www.demoblaze.com/index.html"  	[MsgId: MMSG-26659]
+Action.c(299): Found resource "https://www.demoblaze.com/node_modules/video.js/dist/video-js.min.css" in HTML "https://www.demoblaze.com/index.html"  	[MsgId: MMSG-26659]
+Action.c(299): Found resource "https://www.demoblaze.com/css/latofonts.css" in HTML "https://www.demoblaze.com/index.html"  	[MsgId: MMSG-26659]
+Action.c(299): Found resource "https://www.demoblaze.com/css/latostyle.css" in HTML "https://www.demoblaze.com/index.html"  	[MsgId: MMSG-26659]
+Action.c(299): Downloading resource "https://www.demoblaze.com/imgs/front.jpg" (specified by argument number 9)  	[MsgId: MMSG-26577]
+Action.c(299): Downloading resource "https://www.demoblaze.com/css/fonts/Lato-Regular.woff2" (specified by argument number 11)  	[MsgId: MMSG-26577]
+Action.c(299): Resource "https://www.demoblaze.com/config.json" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(299): Downloading resource "https://www.demoblaze.com/imgs/iphone_6.jpg" (specified by argument number 16)  	[MsgId: MMSG-26577]
+Action.c(299): Downloading resource "https://www.demoblaze.com/imgs/galaxy_s6.jpg" (specified by argument number 18)  	[MsgId: MMSG-26577]
+Action.c(299): Downloading resource "https://www.demoblaze.com/imgs/Lumia_1520.jpg" (specified by argument number 20)  	[MsgId: MMSG-26577]
+Action.c(299): Downloading resource "https://www.demoblaze.com/imgs/Nexus_6.jpg" (specified by argument number 22)  	[MsgId: MMSG-26577]
+Action.c(299): Downloading resource "https://www.demoblaze.com/imgs/HTC_M9.jpg" (specified by argument number 24)  	[MsgId: MMSG-26577]
+Action.c(299): Downloading resource "https://www.demoblaze.com/imgs/xperia_z5.jpg" (specified by argument number 26)  	[MsgId: MMSG-26577]
+Action.c(299): Downloading resource "https://www.demoblaze.com/imgs/sony_vaio_5.jpg" (specified by argument number 28)  	[MsgId: MMSG-26577]
+Action.c(299): Downloading resource "https://www.demoblaze.com/imgs/macbook_air.jpg" (specified by argument number 30)  	[MsgId: MMSG-26577]
+Action.c(299): Downloading resource "https://www.demoblaze.com/imgs/dell.jpg" (specified by argument number 32)  	[MsgId: MMSG-26577]
+Action.c(299): Found resource "https://www.demoblaze.com/bm.png" in HTML "https://www.demoblaze.com/index.html"  	[MsgId: MMSG-26659]
+Action.c(299): Found resource "https://www.demoblaze.com/Samsung1.jpg" in HTML "https://www.demoblaze.com/index.html"  	[MsgId: MMSG-26659]
+Action.c(299): Found resource "https://www.demoblaze.com/nexus1.jpg" in HTML "https://www.demoblaze.com/index.html"  	[MsgId: MMSG-26659]
+Action.c(299): Found resource "https://www.demoblaze.com/iphone1.jpg" in HTML "https://www.demoblaze.com/index.html"  	[MsgId: MMSG-26659]
+Action.c(299): Found resource "https://www.demoblaze.com/node_modules/jquery/dist/jquery.min.js" in HTML "https://www.demoblaze.com/index.html"  	[MsgId: MMSG-26659]
+Action.c(299): Found resource "https://www.demoblaze.com/node_modules/video.js/dist/video.min.js" in HTML "https://www.demoblaze.com/index.html"  	[MsgId: MMSG-26659]
+Action.c(299): Found resource "https://www.demoblaze.com/node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.min.js" in HTML "https://www.demoblaze.com/index.html"  	[MsgId: MMSG-26659]
+Action.c(299): Found resource "https://www.demoblaze.com/node_modules/tether/dist/js/tether.min.js" in HTML "https://www.demoblaze.com/index.html"  	[MsgId: MMSG-26659]
+Action.c(299): Found resource "https://www.demoblaze.com/node_modules/bootstrap/dist/js/bootstrap.min.js" in HTML "https://www.demoblaze.com/index.html"  	[MsgId: MMSG-26659]
+Action.c(299): Found resource "https://www.demoblaze.com/js/index.js" in HTML "https://www.demoblaze.com/index.html"  	[MsgId: MMSG-26659]
+Action.c(299): web_url("index.html") was successful, 1794911 body bytes, 7466 header bytes  	[MsgId: MMSG-26386]
+Action.c(321): web_custom_request("check_5") started  	[MsgId: MMSG-26355]
+Action.c(321): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(321): web_custom_request("check_5") was successful, 0 body bytes, 229 header bytes  	[MsgId: MMSG-26386]
+Action.c(332): web_url("entries_3") started  	[MsgId: MMSG-26355]
+Action.c(332): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(332): web_url("entries_3") was successful, 1055 body bytes, 273 header bytes  	[MsgId: MMSG-26386]
+Action.c(341): web_custom_request("check_6") started  	[MsgId: MMSG-26355]
+Action.c(341): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(341): Warning: The string '"token":"aXRlcmE3ODkxNjQ0MzE0"' with parameter delimiters is not a parameter.
+Action.c(341): web_custom_request("check_6") was successful, 109 body bytes, 272 header bytes  	[MsgId: MMSG-26386]
+Action.c(353): web_custom_request("bycat_3") started  	[MsgId: MMSG-26355]
+Action.c(353): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(353): web_custom_request("bycat_3") was successful, 0 body bytes, 229 header bytes  	[MsgId: MMSG-26386]
+Action.c(363): web_custom_request("bycat_4") started  	[MsgId: MMSG-26355]
+Action.c(363): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(363): Warning: The string '"cat":"notebook"' with parameter delimiters is not a parameter.
+Action.c(363): web_custom_request("bycat_4") was successful, 992 body bytes, 272 header bytes  	[MsgId: MMSG-26386]
+Action.c(377): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(377): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(380): web_url("prod.html_2") started  	[MsgId: MMSG-26355]
+Action.c(380): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(380): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(380): Resource "https://www.demoblaze.com/node_modules/bootstrap/dist/css/bootstrap.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(380): Resource "https://www.demoblaze.com/node_modules/video.js/dist/video-js.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(380): Resource "https://www.demoblaze.com/css/latofonts.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(380): Resource "https://www.demoblaze.com/css/latostyle.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(380): Resource "https://www.demoblaze.com/bm.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(380): Resource "https://www.demoblaze.com/node_modules/jquery/dist/jquery.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(380): Resource "https://www.demoblaze.com/node_modules/video.js/dist/video.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(380): Resource "https://www.demoblaze.com/node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(380): Resource "https://www.demoblaze.com/node_modules/tether/dist/js/tether.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(380): Resource "https://www.demoblaze.com/node_modules/bootstrap/dist/js/bootstrap.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(380): Resource "https://www.demoblaze.com/js/prod.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(380): Registered web_reg_find successful for "Text=STORE" (count=3)  	[MsgId: MMSG-26364]
+Action.c(380): web_url("prod.html_2") was successful, 4976 body bytes, 288 header bytes  	[MsgId: MMSG-26386]
+Action.c(389): web_custom_request("view_3") started  	[MsgId: MMSG-26355]
+Action.c(389): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(389): web_custom_request("view_3") was successful, 0 body bytes, 229 header bytes  	[MsgId: MMSG-26386]
+Action.c(399): web_custom_request("check_7") started  	[MsgId: MMSG-26355]
+Action.c(399): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(399): Warning: The string '"token":"aXRlcmE3ODkxNjQ0MzE0"' with parameter delimiters is not a parameter.
+Action.c(399): web_custom_request("check_7") was successful, 109 body bytes, 272 header bytes  	[MsgId: MMSG-26386]
+Action.c(411): web_custom_request("view_4") started  	[MsgId: MMSG-26355]
+Action.c(411): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(411): Warning: The string '"id":"9"' with parameter delimiters is not a parameter.
+Action.c(411): web_custom_request("view_4") was successful, 316 body bytes, 272 header bytes  	[MsgId: MMSG-26386]
+Action.c(423): web_custom_request("addtocart_3") started  	[MsgId: MMSG-26355]
+Action.c(423): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(423): web_custom_request("addtocart_3") was successful, 0 body bytes, 229 header bytes  	[MsgId: MMSG-26386]
+Action.c(433): web_custom_request("addtocart_4") started  	[MsgId: MMSG-26355]
+Action.c(433): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(433): Warning: The string '"id":"fe9a07da-b821-ab0d-a2dd-92b2844ba920","cookie":"aXRlcmE3ODkxNjQ0MzE0","prod_id":9,"flag":true' with parameter delimiters is not a parameter.
+Action.c(433): web_custom_request("addtocart_4") was successful, 0 body bytes, 207 header bytes  	[MsgId: MMSG-26386]
+Action.c(445): web_url("index.html_2") started  	[MsgId: MMSG-26355]
+Action.c(445): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(445): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(445): Retrieving data from cache for "https://www.demoblaze.com/index.html"  	[MsgId: MMSG-26558]
+Action.c(445): Resource "https://www.demoblaze.com/node_modules/bootstrap/dist/css/bootstrap.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(445): Resource "https://www.demoblaze.com/node_modules/video.js/dist/video-js.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(445): Resource "https://www.demoblaze.com/css/latofonts.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(445): Resource "https://www.demoblaze.com/css/latostyle.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(445): Resource "https://www.demoblaze.com/bm.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(445): Resource "https://www.demoblaze.com/Samsung1.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(445): Resource "https://www.demoblaze.com/nexus1.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(445): Resource "https://www.demoblaze.com/iphone1.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(445): Resource "https://www.demoblaze.com/node_modules/jquery/dist/jquery.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(445): Resource "https://www.demoblaze.com/node_modules/video.js/dist/video.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(445): Resource "https://www.demoblaze.com/node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(445): Resource "https://www.demoblaze.com/node_modules/tether/dist/js/tether.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(445): Resource "https://www.demoblaze.com/node_modules/bootstrap/dist/js/bootstrap.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(445): Resource "https://www.demoblaze.com/js/index.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(445): Resource "https://www.demoblaze.com/imgs/front.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(445): Downloading resource "https://www.demoblaze.com/config.json" (specified by argument number 38)  	[MsgId: MMSG-26577]
+Action.c(445): Resource "https://www.demoblaze.com/favicon.ico" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(445): Resource "https://www.demoblaze.com/imgs/iphone_6.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(445): Resource "https://www.demoblaze.com/imgs/Lumia_1520.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(445): Resource "https://www.demoblaze.com/imgs/Nexus_6.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(445): Resource "https://www.demoblaze.com/imgs/galaxy_s6.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(445): Resource "https://www.demoblaze.com/imgs/xperia_z5.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(445): Resource "https://www.demoblaze.com/imgs/sony_vaio_5.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(445): Resource "https://www.demoblaze.com/imgs/HTC_M9.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(445): Downloading resource "https://www.demoblaze.com/imgs/apple_cinema.jpg" (specified by argument number 56)  	[MsgId: MMSG-26577]
+Action.c(445): Downloading resource "https://www.demoblaze.com/imgs/asusm.jpg" (specified by argument number 58)  	[MsgId: MMSG-26577]
+Action.c(445): web_url("index.html_2") was successful, 134164 body bytes, 825 header bytes  	[MsgId: MMSG-26386]
+Action.c(480): web_custom_request("check_8") started  	[MsgId: MMSG-26355]
+Action.c(480): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(480): web_custom_request("check_8") was successful, 0 body bytes, 229 header bytes  	[MsgId: MMSG-26386]
+Action.c(491): web_url("entries_4") started  	[MsgId: MMSG-26355]
+Action.c(491): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(491): web_url("entries_4") was successful, 1055 body bytes, 273 header bytes  	[MsgId: MMSG-26386]
+Action.c(500): web_custom_request("check_9") started  	[MsgId: MMSG-26355]
+Action.c(500): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(500): Warning: The string '"token":"aXRlcmE3ODkxNjQ0MzE0"' with parameter delimiters is not a parameter.
+Action.c(500): web_custom_request("check_9") was successful, 114 body bytes, 272 header bytes  	[MsgId: MMSG-26386]
+Action.c(512): web_custom_request("bycat_5") started  	[MsgId: MMSG-26355]
+Action.c(512): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(512): web_custom_request("bycat_5") was successful, 0 body bytes, 229 header bytes  	[MsgId: MMSG-26386]
+Action.c(523): web_custom_request("bycat_6") started  	[MsgId: MMSG-26355]
+Action.c(523): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(523): Warning: The string '"cat":"monitor"' with parameter delimiters is not a parameter.
+Action.c(523): web_custom_request("bycat_6") was successful, 389 body bytes, 272 header bytes  	[MsgId: MMSG-26386]
+Action.c(536): web_url("prod.html_3") started  	[MsgId: MMSG-26355]
+Action.c(536): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(536): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(536): Resource "https://www.demoblaze.com/node_modules/bootstrap/dist/css/bootstrap.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(536): Resource "https://www.demoblaze.com/node_modules/video.js/dist/video-js.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(536): Resource "https://www.demoblaze.com/css/latofonts.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(536): Resource "https://www.demoblaze.com/css/latostyle.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(536): Resource "https://www.demoblaze.com/bm.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(536): Resource "https://www.demoblaze.com/node_modules/jquery/dist/jquery.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(536): Resource "https://www.demoblaze.com/node_modules/video.js/dist/video.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(536): Resource "https://www.demoblaze.com/node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(536): Resource "https://www.demoblaze.com/node_modules/tether/dist/js/tether.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(536): Resource "https://www.demoblaze.com/node_modules/bootstrap/dist/js/bootstrap.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(536): Resource "https://www.demoblaze.com/js/prod.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(536): web_url("prod.html_3") was successful, 4976 body bytes, 288 header bytes  	[MsgId: MMSG-26386]
+Action.c(545): web_custom_request("view_5") started  	[MsgId: MMSG-26355]
+Action.c(545): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(545): web_custom_request("view_5") was successful, 0 body bytes, 229 header bytes  	[MsgId: MMSG-26386]
+Action.c(555): web_custom_request("check_10") started  	[MsgId: MMSG-26355]
+Action.c(555): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(555): Warning: The string '"token":"aXRlcmE3ODkxNjQ0MzE0"' with parameter delimiters is not a parameter.
+Action.c(555): web_custom_request("check_10") was successful, 109 body bytes, 272 header bytes  	[MsgId: MMSG-26386]
+Action.c(567): web_custom_request("view_6") started  	[MsgId: MMSG-26355]
+Action.c(567): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(567): Warning: The string '"id":"10"' with parameter delimiters is not a parameter.
+Action.c(567): web_custom_request("view_6") was successful, 325 body bytes, 272 header bytes  	[MsgId: MMSG-26386]
+Action.c(579): web_custom_request("addtocart_5") started  	[MsgId: MMSG-26355]
+Action.c(579): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(579): web_custom_request("addtocart_5") was successful, 0 body bytes, 229 header bytes  	[MsgId: MMSG-26386]
+Action.c(589): web_custom_request("addtocart_6") started  	[MsgId: MMSG-26355]
+Action.c(589): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(589): Warning: The string '"id":"0da4bc38-49d4-fbe6-52a1-055898dad3d5","cookie":"aXRlcmE3ODkxNjQ0MzE0","prod_id":10,"flag":true' with parameter delimiters is not a parameter.
+Action.c(589): web_custom_request("addtocart_6") was successful, 0 body bytes, 207 header bytes  	[MsgId: MMSG-26386]
+Action.c(601): Notify: Transaction "Demo_4_addproducts" ended with a "Pass" status (Duration: 10.6914 Wasted Time: 0.3275).
+Action.c(603): Think time - Waiting 2.00 seconds (according to limit).
+Action.c(603): lr_think_time: 2.00 seconds (recorded think time was 51.00 seconds).
+Action.c(605): Notify: Transaction "Demo_5_CheckCrat" started.
+Action.c(610): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(610): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(613): web_url("cart.html") started  	[MsgId: MMSG-26355]
+Action.c(613): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(613): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(613): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(613): Resource "https://www.demoblaze.com/node_modules/bootstrap/dist/css/bootstrap.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(613): Found resource "https://www.demoblaze.com/node_modules/bootstrap-sweetalert/dist/sweetalert.css" in HTML "https://www.demoblaze.com/cart.html"  	[MsgId: MMSG-26659]
+Action.c(613): Resource "https://www.demoblaze.com/node_modules/video.js/dist/video-js.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(613): Resource "https://www.demoblaze.com/css/latofonts.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(613): Resource "https://www.demoblaze.com/css/latostyle.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(613): Resource "https://www.demoblaze.com/css/fonts/Lato-Regular.woff2" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(613): Resource "https://www.demoblaze.com/imgs/front.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(613): Resource "https://www.demoblaze.com/config.json" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(613): Resource "https://www.demoblaze.com/imgs/iphone_6.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(613): Resource "https://www.demoblaze.com/imgs/apple_cinema.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(613): Resource "https://www.demoblaze.com/imgs/sony_vaio_5.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(613): Resource "https://www.demoblaze.com/bm.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(613): Resource "https://www.demoblaze.com/node_modules/jquery/dist/jquery.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(613): Resource "https://www.demoblaze.com/node_modules/video.js/dist/video.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(613): Resource "https://www.demoblaze.com/node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(613): Resource "https://www.demoblaze.com/node_modules/tether/dist/js/tether.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(613): Resource "https://www.demoblaze.com/node_modules/bootstrap/dist/js/bootstrap.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(613): Found resource "https://www.demoblaze.com/node_modules/bootstrap-sweetalert/dist/sweetalert.min.js" in HTML "https://www.demoblaze.com/cart.html"  	[MsgId: MMSG-26659]
+Action.c(613): Found resource "https://www.demoblaze.com/js/cart.js" in HTML "https://www.demoblaze.com/cart.html"  	[MsgId: MMSG-26659]
+Action.c(613): Registered web_reg_find successful for "Text=STORE" (count=3)  	[MsgId: MMSG-26364]
+Action.c(613): web_url("cart.html") was successful, 16485 body bytes, 1189 header bytes  	[MsgId: MMSG-26386]
+Action.c(632): web_custom_request("check_11") started  	[MsgId: MMSG-26355]
+Action.c(632): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(632): web_custom_request("check_11") was successful, 0 body bytes, 229 header bytes  	[MsgId: MMSG-26386]
+Action.c(642): web_custom_request("viewcart") started  	[MsgId: MMSG-26355]
+Action.c(642): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(642): web_custom_request("viewcart") was successful, 0 body bytes, 229 header bytes  	[MsgId: MMSG-26386]
+Action.c(653): web_custom_request("check_12") started  	[MsgId: MMSG-26355]
+Action.c(653): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(653): Warning: The string '"token":"aXRlcmE3ODkxNjQ0MzE0"' with parameter delimiters is not a parameter.
+Action.c(653): web_custom_request("check_12") was successful, 109 body bytes, 272 header bytes  	[MsgId: MMSG-26386]
+Action.c(665): web_custom_request("viewcart_2") started  	[MsgId: MMSG-26355]
+Action.c(665): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(665): Warning: The string '"cookie":"aXRlcmE3ODkxNjQ0MzE0","flag":true' with parameter delimiters is not a parameter.
+Action.c(665): web_custom_request("viewcart_2") was successful, 171 body bytes, 272 header bytes  	[MsgId: MMSG-26386]
+Action.c(677): web_custom_request("view_7") started  	[MsgId: MMSG-26355]
+Action.c(677): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(677): web_custom_request("view_7") was successful, 0 body bytes, 233 header bytes  	[MsgId: MMSG-26386]
+Action.c(687): web_custom_request("view_8") started  	[MsgId: MMSG-26355]
+Action.c(687): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(687): web_custom_request("view_8") was successful, 0 body bytes, 229 header bytes  	[MsgId: MMSG-26386]
+Action.c(697): web_custom_request("view_9") started  	[MsgId: MMSG-26355]
+Action.c(697): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(697): web_custom_request("view_9") was successful, 0 body bytes, 229 header bytes  	[MsgId: MMSG-26386]
+Action.c(707): web_custom_request("view_10") started  	[MsgId: MMSG-26355]
+Action.c(707): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(707): Warning: The string '"id":5' with parameter delimiters is not a parameter.
+Action.c(707): web_custom_request("view_10") was successful, 264 body bytes, 272 header bytes  	[MsgId: MMSG-26386]
+Action.c(719): web_custom_request("view_11") started  	[MsgId: MMSG-26355]
+Action.c(719): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(719): Warning: The string '"id":10' with parameter delimiters is not a parameter.
+Action.c(719): web_custom_request("view_11") was successful, 325 body bytes, 272 header bytes  	[MsgId: MMSG-26386]
+Action.c(731): web_custom_request("view_12") started  	[MsgId: MMSG-26355]
+Action.c(731): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(731): Warning: The string '"id":9' with parameter delimiters is not a parameter.
+Action.c(731): web_custom_request("view_12") was successful, 316 body bytes, 272 header bytes  	[MsgId: MMSG-26386]
+Action.c(743): Notify: Transaction "Demo_5_CheckCrat" ended with a "Pass" status (Duration: 2.8873 Wasted Time: 0.0881).
+Action.c(745): Think time - Waiting 2.00 seconds (according to limit).
+Action.c(745): lr_think_time: 2.00 seconds (recorded think time was 8.00 seconds).
+Action.c(747): Notify: Transaction "Demo_6_PlaceOrder" started.
+Action.c(753): web_custom_request("deletecart") started  	[MsgId: MMSG-26355]
+Action.c(753): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(753): web_custom_request("deletecart") was successful, 0 body bytes, 229 header bytes  	[MsgId: MMSG-26386]
+Action.c(763): web_custom_request("deletecart_2") started  	[MsgId: MMSG-26355]
+Action.c(763): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(763): Notify: Parameter Substitution: parameter "UserName" =  "itera789"
+Action.c(763): web_custom_request("deletecart_2") was successful, 16 body bytes, 200 header bytes  	[MsgId: MMSG-26386]
+Action.c(775): web_url("index.html_3") started  	[MsgId: MMSG-26355]
+Action.c(775): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(775): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(775): Found resource "https://www.demoblaze.com/node_modules/bootstrap/dist/css/bootstrap.min.css" in HTML "https://www.demoblaze.com/index.html"  	[MsgId: MMSG-26659]
+Action.c(775): Found resource "https://www.demoblaze.com/node_modules/video.js/dist/video-js.min.css" in HTML "https://www.demoblaze.com/index.html"  	[MsgId: MMSG-26659]
+Action.c(775): Found resource "https://www.demoblaze.com/css/latofonts.css" in HTML "https://www.demoblaze.com/index.html"  	[MsgId: MMSG-26659]
+Action.c(775): Found resource "https://www.demoblaze.com/css/latostyle.css" in HTML "https://www.demoblaze.com/index.html"  	[MsgId: MMSG-26659]
+Action.c(775): Downloading resource "https://www.demoblaze.com/node_modules/video.js/dist/video.min.js" (specified by argument number 16)  	[MsgId: MMSG-26577]
+Action.c(775): Downloading resource "https://www.demoblaze.com/node_modules/jquery/dist/jquery.min.js" (specified by argument number 18)  	[MsgId: MMSG-26577]
+Action.c(775): Downloading resource "https://www.demoblaze.com/node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.min.js" (specified by argument number 20)  	[MsgId: MMSG-26577]
+Action.c(775): Downloading resource "https://www.demoblaze.com/node_modules/tether/dist/js/tether.min.js" (specified by argument number 22)  	[MsgId: MMSG-26577]
+Action.c(775): Downloading resource "https://www.demoblaze.com/node_modules/bootstrap/dist/js/bootstrap.min.js" (specified by argument number 24)  	[MsgId: MMSG-26577]
+Action.c(775): Downloading resource "https://www.demoblaze.com/js/index.js" (specified by argument number 26)  	[MsgId: MMSG-26577]
+Action.c(775): Downloading resource "https://www.demoblaze.com/Samsung1.jpg" (specified by argument number 28)  	[MsgId: MMSG-26577]
+Action.c(775): Downloading resource "https://www.demoblaze.com/bm.png" (specified by argument number 30)  	[MsgId: MMSG-26577]
+Action.c(775): Downloading resource "https://www.demoblaze.com/imgs/front.jpg" (specified by argument number 32)  	[MsgId: MMSG-26577]
+Action.c(775): Downloading resource "https://www.demoblaze.com/nexus1.jpg" (specified by argument number 34)  	[MsgId: MMSG-26577]
+Action.c(775): Downloading resource "https://www.demoblaze.com/iphone1.jpg" (specified by argument number 36)  	[MsgId: MMSG-26577]
+Action.c(775): Downloading resource "https://www.demoblaze.com/config.json" (specified by argument number 38)  	[MsgId: MMSG-26577]
+Action.c(775): Downloading resource "https://www.demoblaze.com/favicon.ico" (specified by argument number 40)  	[MsgId: MMSG-26577]
+Action.c(775): Downloading resource "https://www.demoblaze.com/imgs/galaxy_s6.jpg" (specified by argument number 42)  	[MsgId: MMSG-26577]
+Action.c(775): Downloading resource "https://www.demoblaze.com/imgs/Lumia_1520.jpg" (specified by argument number 44)  	[MsgId: MMSG-26577]
+Action.c(775): Downloading resource "https://www.demoblaze.com/imgs/Nexus_6.jpg" (specified by argument number 46)  	[MsgId: MMSG-26577]
+Action.c(775): Downloading resource "https://www.demoblaze.com/imgs/iphone_6.jpg" (specified by argument number 48)  	[MsgId: MMSG-26577]
+Action.c(775): Downloading resource "https://www.demoblaze.com/imgs/xperia_z5.jpg" (specified by argument number 50)  	[MsgId: MMSG-26577]
+Action.c(775): Downloading resource "https://www.demoblaze.com/imgs/HTC_M9.jpg" (specified by argument number 52)  	[MsgId: MMSG-26577]
+Action.c(775): Downloading resource "https://www.demoblaze.com/imgs/sony_vaio_5.jpg" (specified by argument number 54)  	[MsgId: MMSG-26577]
+Action.c(775): web_url("index.html_3") was successful, 1482923 body bytes, 7282 header bytes  	[MsgId: MMSG-26386]
+Action.c(809): web_custom_request("check_13") started  	[MsgId: MMSG-26355]
+Action.c(809): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(809): web_custom_request("check_13") was successful, 0 body bytes, 229 header bytes  	[MsgId: MMSG-26386]
+Action.c(819): web_url("entries_5") started  	[MsgId: MMSG-26355]
+Action.c(819): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(819): web_url("entries_5") was successful, 1055 body bytes, 273 header bytes  	[MsgId: MMSG-26386]
+Action.c(828): web_custom_request("check_14") started  	[MsgId: MMSG-26355]
+Action.c(828): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(828): Warning: The string '"token":"aXRlcmE3ODkxNjQ0MzE0"' with parameter delimiters is not a parameter.
+Action.c(828): web_custom_request("check_14") was successful, 109 body bytes, 272 header bytes  	[MsgId: MMSG-26386]
+Action.c(840): Notify: Transaction "Demo_6_PlaceOrder" ended with a "Pass" status (Duration: 3.2242 Wasted Time: 0.1268).
+Action.c(844): Think time - Waiting 2.00 seconds (according to limit).
+Action.c(844): lr_think_time: 2.00 seconds (recorded think time was 3.00 seconds).
+Action.c(847): Notify: Transaction "Demo_7_logout" started.
+Action.c(850): web_url("index.html_4") started  	[MsgId: MMSG-26355]
+Action.c(850): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(850): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(850): Retrieving data from cache for "https://www.demoblaze.com/index.html"  	[MsgId: MMSG-26558]
+Action.c(850): Resource "https://www.demoblaze.com/node_modules/bootstrap/dist/css/bootstrap.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(850): Resource "https://www.demoblaze.com/node_modules/video.js/dist/video-js.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(850): Resource "https://www.demoblaze.com/css/latofonts.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(850): Resource "https://www.demoblaze.com/css/latostyle.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(850): Resource "https://www.demoblaze.com/bm.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(850): Resource "https://www.demoblaze.com/Samsung1.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(850): Resource "https://www.demoblaze.com/nexus1.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(850): Resource "https://www.demoblaze.com/iphone1.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(850): Resource "https://www.demoblaze.com/node_modules/jquery/dist/jquery.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(850): Resource "https://www.demoblaze.com/node_modules/video.js/dist/video.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(850): Resource "https://www.demoblaze.com/node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(850): Resource "https://www.demoblaze.com/node_modules/tether/dist/js/tether.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(850): Resource "https://www.demoblaze.com/node_modules/bootstrap/dist/js/bootstrap.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(850): Resource "https://www.demoblaze.com/js/index.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(850): Resource "https://www.demoblaze.com/imgs/front.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(850): Resource "https://www.demoblaze.com/config.json" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(850): Resource "https://www.demoblaze.com/favicon.ico" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(850): Resource "https://www.demoblaze.com/imgs/galaxy_s6.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(850): Resource "https://www.demoblaze.com/imgs/Lumia_1520.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(850): Resource "https://www.demoblaze.com/imgs/iphone_6.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(850): Resource "https://www.demoblaze.com/imgs/xperia_z5.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(850): Resource "https://www.demoblaze.com/imgs/Nexus_6.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(850): Resource "https://www.demoblaze.com/imgs/HTC_M9.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(850): Resource "https://www.demoblaze.com/imgs/sony_vaio_5.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(850): web_url("index.html_4") was successful, 0 body bytes, 0 header bytes  	[MsgId: MMSG-26386]
+Action.c(883): web_url("entries_6") started  	[MsgId: MMSG-26355]
+Action.c(883): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(883): web_url("entries_6") was successful, 1055 body bytes, 273 header bytes  	[MsgId: MMSG-26386]
+Action.c(892): Notify: Transaction "Demo_7_logout" ended with a "Pass" status (Duration: 0.3529 Wasted Time: 0.0180).
+Ending action Action.
+Ending iteration 1.
+Starting iteration 2.
+Notify: Next row for parameter UserName = 2 [table  = UserName].
+Notify: Getting new value for parameter 'UserName': table = 'UserName.dat' column = '0' row = '2'.
+Notify: Next row for parameter URL = 1 [table  = URL].
+Notify: Getting new value for parameter 'URL': table = 'URL.dat' column = '0' row = '1'.
+Notify: Next row for parameter Password = 2 [table  = Password].
+Notify: Getting new value for parameter 'Password': table = 'Password.dat' column = '0' row = '2'.
+Starting action Action.
+Action.c(5): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(5): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(9): Notify: Transaction "Demo_1_Homepage" started.
+Action.c(11): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(11): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(14): web_url("www.demoblaze.com") started  	[MsgId: MMSG-26355]
+Action.c(14): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(14): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(14): Found resource "https://www.demoblaze.com/node_modules/bootstrap/dist/css/bootstrap.min.css" in HTML "https://www.demoblaze.com/"  	[MsgId: MMSG-26659]
+Action.c(14): Found resource "https://www.demoblaze.com/node_modules/video.js/dist/video-js.min.css" in HTML "https://www.demoblaze.com/"  	[MsgId: MMSG-26659]
+Action.c(14): Found resource "https://www.demoblaze.com/css/latofonts.css" in HTML "https://www.demoblaze.com/"  	[MsgId: MMSG-26659]
+Action.c(14): Found resource "https://www.demoblaze.com/css/latostyle.css" in HTML "https://www.demoblaze.com/"  	[MsgId: MMSG-26659]
+Action.c(14): Downloading resource "https://chromestore.aternity.com/update/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromecrx&prodchannel=&prodversion=97.0.4692.99&lang=en-US&acceptformat=crx3&x=id%3Ddcjplbbbfjpafkmpiaobikmlmfbceafm%26v%3D12.1.4.17%26installsource%3Dnotfromwebstore%26installedby%3Dpolicy%26uc" (specified by argument number 9)  	[MsgId: MMSG-26577]
+Action.c(14): Downloading resource "https://www.demoblaze.com/css/fonts/Lato-Regular.woff2" (specified by argument number 12)  	[MsgId: MMSG-26577]
+Action.c(14): Downloading resource "https://www.demoblaze.com/imgs/front.jpg" (specified by argument number 15)  	[MsgId: MMSG-26577]
+Action.c(14): Downloading resource "https://hls.demoblaze.com/index.m3u8" (specified by argument number 17)  	[MsgId: MMSG-26577]
+Action.c(14): Downloading resource "https://hls.demoblaze.com/about_demo_hls_600k.m3u8" (specified by argument number 19)  	[MsgId: MMSG-26577]
+Action.c(14): Downloading resource "https://www.demoblaze.com/imgs/galaxy_s6.jpg" (specified by argument number 21)  	[MsgId: MMSG-26577]
+Action.c(14): Downloading resource "https://www.demoblaze.com/imgs/Nexus_6.jpg" (specified by argument number 23)  	[MsgId: MMSG-26577]
+Action.c(14): Downloading resource "https://www.demoblaze.com/imgs/xperia_z5.jpg" (specified by argument number 25)  	[MsgId: MMSG-26577]
+Action.c(14): Downloading resource "https://www.demoblaze.com/imgs/iphone_6.jpg" (specified by argument number 27)  	[MsgId: MMSG-26577]
+Action.c(14): Downloading resource "https://www.demoblaze.com/imgs/Lumia_1520.jpg" (specified by argument number 29)  	[MsgId: MMSG-26577]
+Action.c(14): Downloading resource "https://www.demoblaze.com/imgs/HTC_M9.jpg" (specified by argument number 31)  	[MsgId: MMSG-26577]
+Action.c(14): Downloading resource "https://www.demoblaze.com/imgs/sony_vaio_5.jpg" (specified by argument number 33)  	[MsgId: MMSG-26577]
+Action.c(14): Found resource "https://www.demoblaze.com/bm.png" in HTML "https://www.demoblaze.com/"  	[MsgId: MMSG-26659]
+Action.c(14): Found resource "https://www.demoblaze.com/Samsung1.jpg" in HTML "https://www.demoblaze.com/"  	[MsgId: MMSG-26659]
+Action.c(14): Found resource "https://www.demoblaze.com/nexus1.jpg" in HTML "https://www.demoblaze.com/"  	[MsgId: MMSG-26659]
+Action.c(14): Found resource "https://www.demoblaze.com/iphone1.jpg" in HTML "https://www.demoblaze.com/"  	[MsgId: MMSG-26659]
+Action.c(14): Found resource "https://www.demoblaze.com/node_modules/jquery/dist/jquery.min.js" in HTML "https://www.demoblaze.com/"  	[MsgId: MMSG-26659]
+Action.c(14): Found resource "https://www.demoblaze.com/node_modules/video.js/dist/video.min.js" in HTML "https://www.demoblaze.com/"  	[MsgId: MMSG-26659]
+Action.c(14): Found resource "https://www.demoblaze.com/node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.min.js" in HTML "https://www.demoblaze.com/"  	[MsgId: MMSG-26659]
+Action.c(14): Found resource "https://www.demoblaze.com/node_modules/tether/dist/js/tether.min.js" in HTML "https://www.demoblaze.com/"  	[MsgId: MMSG-26659]
+Action.c(14): Found resource "https://www.demoblaze.com/node_modules/bootstrap/dist/js/bootstrap.min.js" in HTML "https://www.demoblaze.com/"  	[MsgId: MMSG-26659]
+Action.c(14): Found resource "https://www.demoblaze.com/js/index.js" in HTML "https://www.demoblaze.com/"  	[MsgId: MMSG-26659]
+Action.c(14): Registered web_reg_find successful for "Text=STORE" (count=3)  	[MsgId: MMSG-26364]
+Action.c(14): web_url("www.demoblaze.com") was successful, 1667878 body bytes, 8734 header bytes  	[MsgId: MMSG-26386]
+Action.c(36): web_url("config.json") started  	[MsgId: MMSG-26355]
+Action.c(36): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(36): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(36): web_url("config.json") was successful, 84 body bytes, 295 header bytes  	[MsgId: MMSG-26386]
+Action.c(45): web_url("entries") started  	[MsgId: MMSG-26355]
+Action.c(45): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(45): web_url("entries") was successful, 1055 body bytes, 273 header bytes  	[MsgId: MMSG-26386]
+Action.c(54): Notify: Transaction "Demo_1_Homepage" ended with a "Pass" status (Duration: 2.1977 Wasted Time: 0.1347).
+Action.c(59): Notify: Transaction "Demo_2_SignUp" started.
+Action.c(62): web_custom_request("signup") started  	[MsgId: MMSG-26355]
+Action.c(62): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(62): web_custom_request("signup") was successful, 0 body bytes, 229 header bytes  	[MsgId: MMSG-26386]
+Action.c(72): web_custom_request("signup_2") started  	[MsgId: MMSG-26355]
+Action.c(72): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(72): Notify: Parameter Substitution: parameter "UserName" =  "itera111"
+Action.c(72): Notify: Next row for parameter Password = 2 [table  = Password].
+Action.c(72): Notify: Parameter Substitution: parameter "Password" =  "Itera111"
+Action.c(72): web_custom_request("signup_2") was successful, 3 body bytes, 199 header bytes  	[MsgId: MMSG-26386]
+Action.c(84): Notify: Transaction "Demo_2_SignUp" ended with a "Pass" status (Duration: 0.6379 Wasted Time: 0.0278).
+Action.c(86): Think time - Waiting 2.00 seconds (according to limit).
+Action.c(86): lr_think_time: 2.00 seconds (recorded think time was 5.00 seconds).
+Action.c(88): Notify: Transaction "Demo_3_login" started.
+Action.c(93): web_custom_request("login") started  	[MsgId: MMSG-26355]
+Action.c(93): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(93): web_custom_request("login") was successful, 0 body bytes, 229 header bytes  	[MsgId: MMSG-26386]
+Action.c(104): web_custom_request("login_2") started  	[MsgId: MMSG-26355]
+Action.c(104): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(104): Notify: Parameter Substitution: parameter "UserName" =  "itera111"
+Action.c(104): Notify: Next row for parameter Password = 2 [table  = Password].
+Action.c(104): Notify: Parameter Substitution: parameter "Password" =  "Itera111"
+Action.c(104): web_custom_request("login_2") was successful, 61 body bytes, 271 header bytes  	[MsgId: MMSG-26386]
+Action.c(117): web_url("www.demoblaze.com_2") started  	[MsgId: MMSG-26355]
+Action.c(117): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(117): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(117): Retrieving data from cache for "https://www.demoblaze.com/"  	[MsgId: MMSG-26558]
+Action.c(117): Resource "https://www.demoblaze.com/node_modules/bootstrap/dist/css/bootstrap.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(117): Resource "https://www.demoblaze.com/node_modules/video.js/dist/video-js.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(117): Resource "https://www.demoblaze.com/css/latofonts.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(117): Resource "https://www.demoblaze.com/css/latostyle.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(117): Resource "https://www.demoblaze.com/bm.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(117): Resource "https://www.demoblaze.com/Samsung1.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(117): Resource "https://www.demoblaze.com/nexus1.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(117): Resource "https://www.demoblaze.com/iphone1.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(117): Resource "https://www.demoblaze.com/node_modules/jquery/dist/jquery.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(117): Resource "https://www.demoblaze.com/node_modules/video.js/dist/video.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(117): Resource "https://www.demoblaze.com/node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(117): Resource "https://www.demoblaze.com/node_modules/tether/dist/js/tether.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(117): Resource "https://www.demoblaze.com/node_modules/bootstrap/dist/js/bootstrap.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(117): Resource "https://www.demoblaze.com/js/index.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(117): Resource "https://www.demoblaze.com/imgs/front.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(117): Resource "https://www.demoblaze.com/config.json" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(117): Downloading resource "https://www.demoblaze.com/favicon.ico" (specified by argument number 40)  	[MsgId: MMSG-26577]
+Action.c(117): Resource "https://www.demoblaze.com/imgs/galaxy_s6.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(117): Resource "https://www.demoblaze.com/imgs/Lumia_1520.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(117): Resource "https://www.demoblaze.com/imgs/iphone_6.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(117): Resource "https://www.demoblaze.com/imgs/Nexus_6.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(117): Resource "https://www.demoblaze.com/imgs/xperia_z5.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(117): Resource "https://www.demoblaze.com/imgs/HTC_M9.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(117): Resource "https://www.demoblaze.com/imgs/sony_vaio_5.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(117): web_url("www.demoblaze.com_2") was successful, 5214 body bytes, 303 header bytes  	[MsgId: MMSG-26386]
+Action.c(152): web_custom_request("check") started  	[MsgId: MMSG-26355]
+Action.c(152): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(152): web_custom_request("check") was successful, 0 body bytes, 229 header bytes  	[MsgId: MMSG-26386]
+Action.c(162): web_url("entries_2") started  	[MsgId: MMSG-26355]
+Action.c(162): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(162): web_url("entries_2") was successful, 1055 body bytes, 273 header bytes  	[MsgId: MMSG-26386]
+Action.c(171): web_custom_request("check_2") started  	[MsgId: MMSG-26355]
+Action.c(171): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(171): Warning: The string '"token":"aXRlcmE3ODkxNjQ0MzE0"' with parameter delimiters is not a parameter.
+Action.c(171): web_custom_request("check_2") was successful, 109 body bytes, 272 header bytes  	[MsgId: MMSG-26386]
+Action.c(183): Notify: Transaction "Demo_3_login" ended with a "Pass" status (Duration: 1.6130 Wasted Time: 0.0820).
+Action.c(185): Think time - Waiting 2.00 seconds (according to limit).
+Action.c(185): lr_think_time: 2.00 seconds (recorded think time was 4.00 seconds).
+Action.c(187): Notify: Transaction "Demo_4_addproducts" started.
+Action.c(191): web_custom_request("bycat") started  	[MsgId: MMSG-26355]
+Action.c(191): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(191): web_custom_request("bycat") was successful, 0 body bytes, 229 header bytes  	[MsgId: MMSG-26386]
+Action.c(201): web_custom_request("bycat_2") started  	[MsgId: MMSG-26355]
+Action.c(201): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(201): Warning: The string '"cat":"phone"' with parameter delimiters is not a parameter.
+Action.c(201): web_custom_request("bycat_2") was successful, 781 body bytes, 272 header bytes  	[MsgId: MMSG-26386]
+Action.c(214): web_url("prod.html") started  	[MsgId: MMSG-26355]
+Action.c(214): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(214): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(214): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(214): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(214): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(214): Found resource "https://www.demoblaze.com/node_modules/bootstrap/dist/css/bootstrap.min.css" in HTML "https://www.demoblaze.com/prod.html?idp_=5"  	[MsgId: MMSG-26659]
+Action.c(214): Resource "https://www.demoblaze.com/node_modules/video.js/dist/video-js.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(214): Resource "https://www.demoblaze.com/css/latofonts.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(214): Resource "https://www.demoblaze.com/css/latostyle.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(214): Resource "https://www.demoblaze.com/imgs/front.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(214): Resource "https://www.demoblaze.com/css/fonts/Lato-Regular.woff2" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(214): Resource "https://www.demoblaze.com/config.json" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(214): Resource "https://www.demoblaze.com/bm.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(214): Resource "https://www.demoblaze.com/node_modules/jquery/dist/jquery.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(214): Resource "https://www.demoblaze.com/node_modules/video.js/dist/video.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(214): Resource "https://www.demoblaze.com/node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(214): Resource "https://www.demoblaze.com/node_modules/tether/dist/js/tether.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(214): Resource "https://www.demoblaze.com/node_modules/bootstrap/dist/js/bootstrap.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(214): Found resource "https://www.demoblaze.com/js/prod.js" in HTML "https://www.demoblaze.com/prod.html?idp_=5"  	[MsgId: MMSG-26659]
+Action.c(214): web_url("prod.html") was successful, 35029 body bytes, 907 header bytes  	[MsgId: MMSG-26386]
+Action.c(227): web_custom_request("check_3") started  	[MsgId: MMSG-26355]
+Action.c(227): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(227): web_custom_request("check_3") was successful, 0 body bytes, 229 header bytes  	[MsgId: MMSG-26386]
+Action.c(237): web_custom_request("view") started  	[MsgId: MMSG-26355]
+Action.c(237): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(237): web_custom_request("view") was successful, 0 body bytes, 229 header bytes  	[MsgId: MMSG-26386]
+Action.c(249): web_custom_request("check_4") started  	[MsgId: MMSG-26355]
+Action.c(249): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(249): Warning: The string '"token":"aXRlcmE3ODkxNjQ0MzE0"' with parameter delimiters is not a parameter.
+Action.c(249): web_custom_request("check_4") was successful, 109 body bytes, 272 header bytes  	[MsgId: MMSG-26386]
+Action.c(261): web_custom_request("view_2") started  	[MsgId: MMSG-26355]
+Action.c(261): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(261): Warning: The string '"id":"5"' with parameter delimiters is not a parameter.
+Action.c(261): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(261): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(261): Resource "https://www.demoblaze.com/imgs/iphone_6.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(261): web_custom_request("view_2") was successful, 264 body bytes, 272 header bytes  	[MsgId: MMSG-26386]
+Action.c(276): web_custom_request("addtocart") started  	[MsgId: MMSG-26355]
+Action.c(276): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(276): web_custom_request("addtocart") was successful, 0 body bytes, 229 header bytes  	[MsgId: MMSG-26386]
+Action.c(287): web_custom_request("addtocart_2") started  	[MsgId: MMSG-26355]
+Action.c(287): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(287): Warning: The string '"id":"70948e20-89bf-431c-28f1-f8012951c10f","cookie":"aXRlcmE3ODkxNjQ0MzE0","prod_id":5,"flag":true' with parameter delimiters is not a parameter.
+Action.c(287): web_custom_request("addtocart_2") was successful, 0 body bytes, 207 header bytes  	[MsgId: MMSG-26386]
+Action.c(299): web_url("index.html") started  	[MsgId: MMSG-26355]
+Action.c(299): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(299): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(299): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(299): Resource "https://www.demoblaze.com/node_modules/bootstrap/dist/css/bootstrap.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(299): Found resource "https://www.demoblaze.com/node_modules/video.js/dist/video-js.min.css" in HTML "https://www.demoblaze.com/index.html"  	[MsgId: MMSG-26659]
+Action.c(299): Found resource "https://www.demoblaze.com/css/latofonts.css" in HTML "https://www.demoblaze.com/index.html"  	[MsgId: MMSG-26659]
+Action.c(299): Found resource "https://www.demoblaze.com/css/latostyle.css" in HTML "https://www.demoblaze.com/index.html"  	[MsgId: MMSG-26659]
+Action.c(299): Downloading resource "https://www.demoblaze.com/imgs/front.jpg" (specified by argument number 9)  	[MsgId: MMSG-26577]
+Action.c(299): Downloading resource "https://www.demoblaze.com/css/fonts/Lato-Regular.woff2" (specified by argument number 11)  	[MsgId: MMSG-26577]
+Action.c(299): Resource "https://www.demoblaze.com/config.json" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(299): Downloading resource "https://www.demoblaze.com/imgs/iphone_6.jpg" (specified by argument number 16)  	[MsgId: MMSG-26577]
+Action.c(299): Downloading resource "https://www.demoblaze.com/imgs/galaxy_s6.jpg" (specified by argument number 18)  	[MsgId: MMSG-26577]
+Action.c(299): Downloading resource "https://www.demoblaze.com/imgs/Lumia_1520.jpg" (specified by argument number 20)  	[MsgId: MMSG-26577]
+Action.c(299): Downloading resource "https://www.demoblaze.com/imgs/Nexus_6.jpg" (specified by argument number 22)  	[MsgId: MMSG-26577]
+Action.c(299): Downloading resource "https://www.demoblaze.com/imgs/HTC_M9.jpg" (specified by argument number 24)  	[MsgId: MMSG-26577]
+Action.c(299): Downloading resource "https://www.demoblaze.com/imgs/xperia_z5.jpg" (specified by argument number 26)  	[MsgId: MMSG-26577]
+Action.c(299): Downloading resource "https://www.demoblaze.com/imgs/sony_vaio_5.jpg" (specified by argument number 28)  	[MsgId: MMSG-26577]
+Action.c(299): Downloading resource "https://www.demoblaze.com/imgs/macbook_air.jpg" (specified by argument number 30)  	[MsgId: MMSG-26577]
+Action.c(299): Downloading resource "https://www.demoblaze.com/imgs/dell.jpg" (specified by argument number 32)  	[MsgId: MMSG-26577]
+Action.c(299): Found resource "https://www.demoblaze.com/bm.png" in HTML "https://www.demoblaze.com/index.html"  	[MsgId: MMSG-26659]
+Action.c(299): Found resource "https://www.demoblaze.com/Samsung1.jpg" in HTML "https://www.demoblaze.com/index.html"  	[MsgId: MMSG-26659]
+Action.c(299): Found resource "https://www.demoblaze.com/nexus1.jpg" in HTML "https://www.demoblaze.com/index.html"  	[MsgId: MMSG-26659]
+Action.c(299): Found resource "https://www.demoblaze.com/iphone1.jpg" in HTML "https://www.demoblaze.com/index.html"  	[MsgId: MMSG-26659]
+Action.c(299): Found resource "https://www.demoblaze.com/node_modules/jquery/dist/jquery.min.js" in HTML "https://www.demoblaze.com/index.html"  	[MsgId: MMSG-26659]
+Action.c(299): Found resource "https://www.demoblaze.com/node_modules/video.js/dist/video.min.js" in HTML "https://www.demoblaze.com/index.html"  	[MsgId: MMSG-26659]
+Action.c(299): Found resource "https://www.demoblaze.com/node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.min.js" in HTML "https://www.demoblaze.com/index.html"  	[MsgId: MMSG-26659]
+Action.c(299): Found resource "https://www.demoblaze.com/node_modules/tether/dist/js/tether.min.js" in HTML "https://www.demoblaze.com/index.html"  	[MsgId: MMSG-26659]
+Action.c(299): Found resource "https://www.demoblaze.com/node_modules/bootstrap/dist/js/bootstrap.min.js" in HTML "https://www.demoblaze.com/index.html"  	[MsgId: MMSG-26659]
+Action.c(299): Found resource "https://www.demoblaze.com/js/index.js" in HTML "https://www.demoblaze.com/index.html"  	[MsgId: MMSG-26659]
+Action.c(299): web_url("index.html") was successful, 1767224 body bytes, 7406 header bytes  	[MsgId: MMSG-26386]
+Action.c(321): web_custom_request("check_5") started  	[MsgId: MMSG-26355]
+Action.c(321): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(321): web_custom_request("check_5") was successful, 0 body bytes, 233 header bytes  	[MsgId: MMSG-26386]
+Action.c(332): web_url("entries_3") started  	[MsgId: MMSG-26355]
+Action.c(332): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(332): web_url("entries_3") was successful, 1055 body bytes, 273 header bytes  	[MsgId: MMSG-26386]
+Action.c(341): web_custom_request("check_6") started  	[MsgId: MMSG-26355]
+Action.c(341): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(341): Warning: The string '"token":"aXRlcmE3ODkxNjQ0MzE0"' with parameter delimiters is not a parameter.
+Action.c(341): web_custom_request("check_6") was successful, 109 body bytes, 272 header bytes  	[MsgId: MMSG-26386]
+Action.c(353): web_custom_request("bycat_3") started  	[MsgId: MMSG-26355]
+Action.c(353): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(353): web_custom_request("bycat_3") was successful, 0 body bytes, 229 header bytes  	[MsgId: MMSG-26386]
+Action.c(363): web_custom_request("bycat_4") started  	[MsgId: MMSG-26355]
+Action.c(363): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(363): Warning: The string '"cat":"notebook"' with parameter delimiters is not a parameter.
+Action.c(363): web_custom_request("bycat_4") was successful, 992 body bytes, 272 header bytes  	[MsgId: MMSG-26386]
+Action.c(377): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(377): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(380): web_url("prod.html_2") started  	[MsgId: MMSG-26355]
+Action.c(380): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(380): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(380): Resource "https://www.demoblaze.com/node_modules/bootstrap/dist/css/bootstrap.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(380): Resource "https://www.demoblaze.com/node_modules/video.js/dist/video-js.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(380): Resource "https://www.demoblaze.com/css/latofonts.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(380): Resource "https://www.demoblaze.com/css/latostyle.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(380): Resource "https://www.demoblaze.com/bm.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(380): Resource "https://www.demoblaze.com/node_modules/jquery/dist/jquery.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(380): Resource "https://www.demoblaze.com/node_modules/video.js/dist/video.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(380): Resource "https://www.demoblaze.com/node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(380): Resource "https://www.demoblaze.com/node_modules/tether/dist/js/tether.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(380): Resource "https://www.demoblaze.com/node_modules/bootstrap/dist/js/bootstrap.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(380): Resource "https://www.demoblaze.com/js/prod.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(380): Registered web_reg_find successful for "Text=STORE" (count=3)  	[MsgId: MMSG-26364]
+Action.c(380): web_url("prod.html_2") was successful, 4976 body bytes, 292 header bytes  	[MsgId: MMSG-26386]
+Action.c(389): web_custom_request("view_3") started  	[MsgId: MMSG-26355]
+Action.c(389): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(389): web_custom_request("view_3") was successful, 0 body bytes, 229 header bytes  	[MsgId: MMSG-26386]
+Action.c(399): web_custom_request("check_7") started  	[MsgId: MMSG-26355]
+Action.c(399): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(399): Warning: The string '"token":"aXRlcmE3ODkxNjQ0MzE0"' with parameter delimiters is not a parameter.
+Action.c(399): web_custom_request("check_7") was successful, 109 body bytes, 272 header bytes  	[MsgId: MMSG-26386]
+Action.c(411): web_custom_request("view_4") started  	[MsgId: MMSG-26355]
+Action.c(411): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(411): Warning: The string '"id":"9"' with parameter delimiters is not a parameter.
+Action.c(411): web_custom_request("view_4") was successful, 316 body bytes, 272 header bytes  	[MsgId: MMSG-26386]
+Action.c(423): web_custom_request("addtocart_3") started  	[MsgId: MMSG-26355]
+Action.c(423): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(423): web_custom_request("addtocart_3") was successful, 0 body bytes, 229 header bytes  	[MsgId: MMSG-26386]
+Action.c(433): web_custom_request("addtocart_4") started  	[MsgId: MMSG-26355]
+Action.c(433): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(433): Warning: The string '"id":"fe9a07da-b821-ab0d-a2dd-92b2844ba920","cookie":"aXRlcmE3ODkxNjQ0MzE0","prod_id":9,"flag":true' with parameter delimiters is not a parameter.
+Action.c(433): web_custom_request("addtocart_4") was successful, 0 body bytes, 207 header bytes  	[MsgId: MMSG-26386]
+Action.c(445): web_url("index.html_2") started  	[MsgId: MMSG-26355]
+Action.c(445): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(445): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(445): Retrieving data from cache for "https://www.demoblaze.com/index.html"  	[MsgId: MMSG-26558]
+Action.c(445): Resource "https://www.demoblaze.com/node_modules/bootstrap/dist/css/bootstrap.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(445): Resource "https://www.demoblaze.com/node_modules/video.js/dist/video-js.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(445): Resource "https://www.demoblaze.com/css/latofonts.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(445): Resource "https://www.demoblaze.com/css/latostyle.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(445): Resource "https://www.demoblaze.com/bm.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(445): Resource "https://www.demoblaze.com/Samsung1.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(445): Resource "https://www.demoblaze.com/nexus1.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(445): Resource "https://www.demoblaze.com/iphone1.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(445): Resource "https://www.demoblaze.com/node_modules/jquery/dist/jquery.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(445): Resource "https://www.demoblaze.com/node_modules/video.js/dist/video.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(445): Resource "https://www.demoblaze.com/node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(445): Resource "https://www.demoblaze.com/node_modules/tether/dist/js/tether.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(445): Resource "https://www.demoblaze.com/node_modules/bootstrap/dist/js/bootstrap.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(445): Resource "https://www.demoblaze.com/js/index.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(445): Resource "https://www.demoblaze.com/imgs/front.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(445): Downloading resource "https://www.demoblaze.com/config.json" (specified by argument number 38)  	[MsgId: MMSG-26577]
+Action.c(445): Resource "https://www.demoblaze.com/favicon.ico" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(445): Resource "https://www.demoblaze.com/imgs/iphone_6.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(445): Resource "https://www.demoblaze.com/imgs/Lumia_1520.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(445): Resource "https://www.demoblaze.com/imgs/Nexus_6.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(445): Resource "https://www.demoblaze.com/imgs/galaxy_s6.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(445): Resource "https://www.demoblaze.com/imgs/xperia_z5.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(445): Resource "https://www.demoblaze.com/imgs/sony_vaio_5.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(445): Resource "https://www.demoblaze.com/imgs/HTC_M9.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(445): Downloading resource "https://www.demoblaze.com/imgs/apple_cinema.jpg" (specified by argument number 56)  	[MsgId: MMSG-26577]
+Action.c(445): Downloading resource "https://www.demoblaze.com/imgs/asusm.jpg" (specified by argument number 58)  	[MsgId: MMSG-26577]
+Action.c(445): web_url("index.html_2") was successful, 134164 body bytes, 865 header bytes  	[MsgId: MMSG-26386]
+Action.c(480): web_custom_request("check_8") started  	[MsgId: MMSG-26355]
+Action.c(480): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(480): web_custom_request("check_8") was successful, 0 body bytes, 229 header bytes  	[MsgId: MMSG-26386]
+Action.c(491): web_url("entries_4") started  	[MsgId: MMSG-26355]
+Action.c(491): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(491): web_url("entries_4") was successful, 1055 body bytes, 273 header bytes  	[MsgId: MMSG-26386]
+Action.c(500): web_custom_request("check_9") started  	[MsgId: MMSG-26355]
+Action.c(500): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(500): Warning: The string '"token":"aXRlcmE3ODkxNjQ0MzE0"' with parameter delimiters is not a parameter.
+Action.c(500): web_custom_request("check_9") was successful, 109 body bytes, 272 header bytes  	[MsgId: MMSG-26386]
+Action.c(512): web_custom_request("bycat_5") started  	[MsgId: MMSG-26355]
+Action.c(512): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(512): web_custom_request("bycat_5") was successful, 0 body bytes, 229 header bytes  	[MsgId: MMSG-26386]
+Action.c(523): web_custom_request("bycat_6") started  	[MsgId: MMSG-26355]
+Action.c(523): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(523): Warning: The string '"cat":"monitor"' with parameter delimiters is not a parameter.
+Action.c(523): web_custom_request("bycat_6") was successful, 389 body bytes, 272 header bytes  	[MsgId: MMSG-26386]
+Action.c(536): web_url("prod.html_3") started  	[MsgId: MMSG-26355]
+Action.c(536): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(536): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(536): Resource "https://www.demoblaze.com/node_modules/bootstrap/dist/css/bootstrap.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(536): Resource "https://www.demoblaze.com/node_modules/video.js/dist/video-js.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(536): Resource "https://www.demoblaze.com/css/latofonts.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(536): Resource "https://www.demoblaze.com/css/latostyle.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(536): Resource "https://www.demoblaze.com/bm.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(536): Resource "https://www.demoblaze.com/node_modules/jquery/dist/jquery.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(536): Resource "https://www.demoblaze.com/node_modules/video.js/dist/video.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(536): Resource "https://www.demoblaze.com/node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(536): Resource "https://www.demoblaze.com/node_modules/tether/dist/js/tether.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(536): Resource "https://www.demoblaze.com/node_modules/bootstrap/dist/js/bootstrap.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(536): Resource "https://www.demoblaze.com/js/prod.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(536): web_url("prod.html_3") was successful, 4976 body bytes, 288 header bytes  	[MsgId: MMSG-26386]
+Action.c(545): web_custom_request("view_5") started  	[MsgId: MMSG-26355]
+Action.c(545): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(545): web_custom_request("view_5") was successful, 0 body bytes, 229 header bytes  	[MsgId: MMSG-26386]
+Action.c(555): web_custom_request("check_10") started  	[MsgId: MMSG-26355]
+Action.c(555): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(555): Warning: The string '"token":"aXRlcmE3ODkxNjQ0MzE0"' with parameter delimiters is not a parameter.
+Action.c(555): web_custom_request("check_10") was successful, 109 body bytes, 272 header bytes  	[MsgId: MMSG-26386]
+Action.c(567): web_custom_request("view_6") started  	[MsgId: MMSG-26355]
+Action.c(567): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(567): Warning: The string '"id":"10"' with parameter delimiters is not a parameter.
+Action.c(567): web_custom_request("view_6") was successful, 325 body bytes, 272 header bytes  	[MsgId: MMSG-26386]
+Action.c(579): web_custom_request("addtocart_5") started  	[MsgId: MMSG-26355]
+Action.c(579): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(579): web_custom_request("addtocart_5") was successful, 0 body bytes, 229 header bytes  	[MsgId: MMSG-26386]
+Action.c(589): web_custom_request("addtocart_6") started  	[MsgId: MMSG-26355]
+Action.c(589): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(589): Warning: The string '"id":"0da4bc38-49d4-fbe6-52a1-055898dad3d5","cookie":"aXRlcmE3ODkxNjQ0MzE0","prod_id":10,"flag":true' with parameter delimiters is not a parameter.
+Action.c(589): web_custom_request("addtocart_6") was successful, 0 body bytes, 207 header bytes  	[MsgId: MMSG-26386]
+Action.c(601): Notify: Transaction "Demo_4_addproducts" ended with a "Pass" status (Duration: 10.5070 Wasted Time: 0.5702).
+Action.c(603): Think time - Waiting 2.00 seconds (according to limit).
+Action.c(603): lr_think_time: 2.00 seconds (recorded think time was 51.00 seconds).
+Action.c(605): Notify: Transaction "Demo_5_CheckCrat" started.
+Action.c(610): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(610): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(613): web_url("cart.html") started  	[MsgId: MMSG-26355]
+Action.c(613): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(613): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(613): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(613): Found resource "https://www.demoblaze.com/node_modules/bootstrap/dist/css/bootstrap.min.css" in HTML "https://www.demoblaze.com/cart.html"  	[MsgId: MMSG-26659]
+Action.c(613): Found resource "https://www.demoblaze.com/node_modules/bootstrap-sweetalert/dist/sweetalert.css" in HTML "https://www.demoblaze.com/cart.html"  	[MsgId: MMSG-26659]
+Action.c(613): Resource "https://www.demoblaze.com/node_modules/video.js/dist/video-js.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(613): Resource "https://www.demoblaze.com/css/latofonts.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(613): Resource "https://www.demoblaze.com/css/latostyle.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(613): Resource "https://www.demoblaze.com/css/fonts/Lato-Regular.woff2" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(613): Resource "https://www.demoblaze.com/imgs/front.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(613): Resource "https://www.demoblaze.com/config.json" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(613): Resource "https://www.demoblaze.com/imgs/iphone_6.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(613): Resource "https://www.demoblaze.com/imgs/apple_cinema.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(613): Resource "https://www.demoblaze.com/imgs/sony_vaio_5.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(613): Resource "https://www.demoblaze.com/bm.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(613): Resource "https://www.demoblaze.com/node_modules/jquery/dist/jquery.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(613): Resource "https://www.demoblaze.com/node_modules/video.js/dist/video.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(613): Resource "https://www.demoblaze.com/node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(613): Resource "https://www.demoblaze.com/node_modules/tether/dist/js/tether.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(613): Resource "https://www.demoblaze.com/node_modules/bootstrap/dist/js/bootstrap.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(613): Found resource "https://www.demoblaze.com/node_modules/bootstrap-sweetalert/dist/sweetalert.min.js" in HTML "https://www.demoblaze.com/cart.html"  	[MsgId: MMSG-26659]
+Action.c(613): Found resource "https://www.demoblaze.com/js/cart.js" in HTML "https://www.demoblaze.com/cart.html"  	[MsgId: MMSG-26659]
+Action.c(613): Registered web_reg_find successful for "Text=STORE" (count=3)  	[MsgId: MMSG-26364]
+Action.c(613): web_url("cart.html") was successful, 44172 body bytes, 1515 header bytes  	[MsgId: MMSG-26386]
+Action.c(632): web_custom_request("check_11") started  	[MsgId: MMSG-26355]
+Action.c(632): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(632): web_custom_request("check_11") was successful, 0 body bytes, 229 header bytes  	[MsgId: MMSG-26386]
+Action.c(642): web_custom_request("viewcart") started  	[MsgId: MMSG-26355]
+Action.c(642): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(642): web_custom_request("viewcart") was successful, 0 body bytes, 229 header bytes  	[MsgId: MMSG-26386]
+Action.c(653): web_custom_request("check_12") started  	[MsgId: MMSG-26355]
+Action.c(653): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(653): Warning: The string '"token":"aXRlcmE3ODkxNjQ0MzE0"' with parameter delimiters is not a parameter.
+Action.c(653): web_custom_request("check_12") was successful, 109 body bytes, 272 header bytes  	[MsgId: MMSG-26386]
+Action.c(665): web_custom_request("viewcart_2") started  	[MsgId: MMSG-26355]
+Action.c(665): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(665): Warning: The string '"cookie":"aXRlcmE3ODkxNjQ0MzE0","flag":true' with parameter delimiters is not a parameter.
+Action.c(665): web_custom_request("viewcart_2") was successful, 171 body bytes, 272 header bytes  	[MsgId: MMSG-26386]
+Action.c(677): web_custom_request("view_7") started  	[MsgId: MMSG-26355]
+Action.c(677): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(677): web_custom_request("view_7") was successful, 0 body bytes, 229 header bytes  	[MsgId: MMSG-26386]
+Action.c(687): web_custom_request("view_8") started  	[MsgId: MMSG-26355]
+Action.c(687): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(687): web_custom_request("view_8") was successful, 0 body bytes, 233 header bytes  	[MsgId: MMSG-26386]
+Action.c(697): web_custom_request("view_9") started  	[MsgId: MMSG-26355]
+Action.c(697): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(697): web_custom_request("view_9") was successful, 0 body bytes, 229 header bytes  	[MsgId: MMSG-26386]
+Action.c(707): web_custom_request("view_10") started  	[MsgId: MMSG-26355]
+Action.c(707): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(707): Warning: The string '"id":5' with parameter delimiters is not a parameter.
+Action.c(707): web_custom_request("view_10") was successful, 264 body bytes, 272 header bytes  	[MsgId: MMSG-26386]
+Action.c(719): web_custom_request("view_11") started  	[MsgId: MMSG-26355]
+Action.c(719): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(719): Warning: The string '"id":10' with parameter delimiters is not a parameter.
+Action.c(719): web_custom_request("view_11") was successful, 325 body bytes, 272 header bytes  	[MsgId: MMSG-26386]
+Action.c(731): web_custom_request("view_12") started  	[MsgId: MMSG-26355]
+Action.c(731): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(731): Warning: The string '"id":9' with parameter delimiters is not a parameter.
+Action.c(731): web_custom_request("view_12") was successful, 316 body bytes, 272 header bytes  	[MsgId: MMSG-26386]
+Action.c(743): Notify: Transaction "Demo_5_CheckCrat" ended with a "Pass" status (Duration: 2.8719 Wasted Time: 0.1608).
+Action.c(745): Think time - Waiting 2.00 seconds (according to limit).
+Action.c(745): lr_think_time: 2.00 seconds (recorded think time was 8.00 seconds).
+Action.c(747): Notify: Transaction "Demo_6_PlaceOrder" started.
+Action.c(753): web_custom_request("deletecart") started  	[MsgId: MMSG-26355]
+Action.c(753): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(753): web_custom_request("deletecart") was successful, 0 body bytes, 229 header bytes  	[MsgId: MMSG-26386]
+Action.c(763): web_custom_request("deletecart_2") started  	[MsgId: MMSG-26355]
+Action.c(763): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(763): Notify: Parameter Substitution: parameter "UserName" =  "itera111"
+Action.c(763): web_custom_request("deletecart_2") was successful, 16 body bytes, 200 header bytes  	[MsgId: MMSG-26386]
+Action.c(775): web_url("index.html_3") started  	[MsgId: MMSG-26355]
+Action.c(775): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(775): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(775): Resource "https://www.demoblaze.com/node_modules/bootstrap/dist/css/bootstrap.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(775): Found resource "https://www.demoblaze.com/node_modules/video.js/dist/video-js.min.css" in HTML "https://www.demoblaze.com/index.html"  	[MsgId: MMSG-26659]
+Action.c(775): Found resource "https://www.demoblaze.com/css/latofonts.css" in HTML "https://www.demoblaze.com/index.html"  	[MsgId: MMSG-26659]
+Action.c(775): Found resource "https://www.demoblaze.com/css/latostyle.css" in HTML "https://www.demoblaze.com/index.html"  	[MsgId: MMSG-26659]
+Action.c(775): Downloading resource "https://www.demoblaze.com/node_modules/video.js/dist/video.min.js" (specified by argument number 16)  	[MsgId: MMSG-26577]
+Action.c(775): Downloading resource "https://www.demoblaze.com/node_modules/jquery/dist/jquery.min.js" (specified by argument number 18)  	[MsgId: MMSG-26577]
+Action.c(775): Downloading resource "https://www.demoblaze.com/node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.min.js" (specified by argument number 20)  	[MsgId: MMSG-26577]
+Action.c(775): Downloading resource "https://www.demoblaze.com/node_modules/tether/dist/js/tether.min.js" (specified by argument number 22)  	[MsgId: MMSG-26577]
+Action.c(775): Downloading resource "https://www.demoblaze.com/node_modules/bootstrap/dist/js/bootstrap.min.js" (specified by argument number 24)  	[MsgId: MMSG-26577]
+Action.c(775): Downloading resource "https://www.demoblaze.com/js/index.js" (specified by argument number 26)  	[MsgId: MMSG-26577]
+Action.c(775): Downloading resource "https://www.demoblaze.com/Samsung1.jpg" (specified by argument number 28)  	[MsgId: MMSG-26577]
+Action.c(775): Downloading resource "https://www.demoblaze.com/bm.png" (specified by argument number 30)  	[MsgId: MMSG-26577]
+Action.c(775): Downloading resource "https://www.demoblaze.com/imgs/front.jpg" (specified by argument number 32)  	[MsgId: MMSG-26577]
+Action.c(775): Downloading resource "https://www.demoblaze.com/nexus1.jpg" (specified by argument number 34)  	[MsgId: MMSG-26577]
+Action.c(775): Downloading resource "https://www.demoblaze.com/iphone1.jpg" (specified by argument number 36)  	[MsgId: MMSG-26577]
+Action.c(775): Resource "https://www.demoblaze.com/config.json" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(775): Downloading resource "https://www.demoblaze.com/favicon.ico" (specified by argument number 40)  	[MsgId: MMSG-26577]
+Action.c(775): Downloading resource "https://www.demoblaze.com/imgs/galaxy_s6.jpg" (specified by argument number 42)  	[MsgId: MMSG-26577]
+Action.c(775): Downloading resource "https://www.demoblaze.com/imgs/Lumia_1520.jpg" (specified by argument number 44)  	[MsgId: MMSG-26577]
+Action.c(775): Downloading resource "https://www.demoblaze.com/imgs/Nexus_6.jpg" (specified by argument number 46)  	[MsgId: MMSG-26577]
+Action.c(775): Downloading resource "https://www.demoblaze.com/imgs/iphone_6.jpg" (specified by argument number 48)  	[MsgId: MMSG-26577]
+Action.c(775): Downloading resource "https://www.demoblaze.com/imgs/xperia_z5.jpg" (specified by argument number 50)  	[MsgId: MMSG-26577]
+Action.c(775): Downloading resource "https://www.demoblaze.com/imgs/HTC_M9.jpg" (specified by argument number 52)  	[MsgId: MMSG-26577]
+Action.c(775): Downloading resource "https://www.demoblaze.com/imgs/sony_vaio_5.jpg" (specified by argument number 54)  	[MsgId: MMSG-26577]
+Action.c(775): web_url("index.html_3") was successful, 1455152 body bytes, 6854 header bytes  	[MsgId: MMSG-26386]
+Action.c(809): web_custom_request("check_13") started  	[MsgId: MMSG-26355]
+Action.c(809): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(809): web_custom_request("check_13") was successful, 0 body bytes, 229 header bytes  	[MsgId: MMSG-26386]
+Action.c(819): web_url("entries_5") started  	[MsgId: MMSG-26355]
+Action.c(819): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(819): web_url("entries_5") was successful, 1055 body bytes, 273 header bytes  	[MsgId: MMSG-26386]
+Action.c(828): web_custom_request("check_14") started  	[MsgId: MMSG-26355]
+Action.c(828): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(828): Warning: The string '"token":"aXRlcmE3ODkxNjQ0MzE0"' with parameter delimiters is not a parameter.
+Action.c(828): web_custom_request("check_14") was successful, 109 body bytes, 272 header bytes  	[MsgId: MMSG-26386]
+Action.c(840): Notify: Transaction "Demo_6_PlaceOrder" ended with a "Pass" status (Duration: 2.8765 Wasted Time: 0.1853).
+Action.c(844): Think time - Waiting 2.00 seconds (according to limit).
+Action.c(844): lr_think_time: 2.00 seconds (recorded think time was 3.00 seconds).
+Action.c(847): Notify: Transaction "Demo_7_logout" started.
+Action.c(850): web_url("index.html_4") started  	[MsgId: MMSG-26355]
+Action.c(850): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(850): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(850): Retrieving data from cache for "https://www.demoblaze.com/index.html"  	[MsgId: MMSG-26558]
+Action.c(850): Resource "https://www.demoblaze.com/node_modules/bootstrap/dist/css/bootstrap.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(850): Resource "https://www.demoblaze.com/node_modules/video.js/dist/video-js.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(850): Resource "https://www.demoblaze.com/css/latofonts.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(850): Resource "https://www.demoblaze.com/css/latostyle.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(850): Resource "https://www.demoblaze.com/bm.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(850): Resource "https://www.demoblaze.com/Samsung1.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(850): Resource "https://www.demoblaze.com/nexus1.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(850): Resource "https://www.demoblaze.com/iphone1.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(850): Resource "https://www.demoblaze.com/node_modules/jquery/dist/jquery.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(850): Resource "https://www.demoblaze.com/node_modules/video.js/dist/video.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(850): Resource "https://www.demoblaze.com/node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(850): Resource "https://www.demoblaze.com/node_modules/tether/dist/js/tether.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(850): Resource "https://www.demoblaze.com/node_modules/bootstrap/dist/js/bootstrap.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(850): Resource "https://www.demoblaze.com/js/index.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(850): Resource "https://www.demoblaze.com/imgs/front.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(850): Downloading resource "https://www.demoblaze.com/config.json" (specified by argument number 38)  	[MsgId: MMSG-26577]
+Action.c(850): Resource "https://www.demoblaze.com/favicon.ico" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(850): Resource "https://www.demoblaze.com/imgs/galaxy_s6.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(850): Resource "https://www.demoblaze.com/imgs/Lumia_1520.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(850): Resource "https://www.demoblaze.com/imgs/iphone_6.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(850): Resource "https://www.demoblaze.com/imgs/xperia_z5.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(850): Resource "https://www.demoblaze.com/imgs/Nexus_6.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(850): Resource "https://www.demoblaze.com/imgs/HTC_M9.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(850): Resource "https://www.demoblaze.com/imgs/sony_vaio_5.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(850): web_url("index.html_4") was successful, 84 body bytes, 295 header bytes  	[MsgId: MMSG-26386]
+Action.c(883): web_url("entries_6") started  	[MsgId: MMSG-26355]
+Action.c(883): Notify: Parameter Substitution: parameter "URL" =  "https://www.demoblaze.com/"
+Action.c(883): web_url("entries_6") was successful, 1055 body bytes, 273 header bytes  	[MsgId: MMSG-26386]
+Action.c(892): Notify: Transaction "Demo_7_logout" ended with a "Pass" status (Duration: 0.5230 Wasted Time: 0.0324).
+Ending action Action.
+Ending iteration 2.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+Vuser 0 (thread 8552), ended OK."

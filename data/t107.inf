@@ -1,0 +1,9 @@
+[t107]
+FileName1=t107.html
+URL1=https://www.demoblaze.com/index.html
+Total=1
+RequestHeaderFile=t107_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t107_ResponseHeader.txt
+ContentType=
+SnapshotXmlFile=snapshot_107.xml

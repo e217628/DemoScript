@@ -1,0 +1,17 @@
+[t75]
+FileName1=t75_config.json
+URL1=https://www.demoblaze.com/config.json
+Total=4
+ContentType=application/json
+SnapshotXmlFile=snapshot_75.xml
+RequestHeaderFile=t75_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t75_ResponseHeader.txt
+FileName2=t75_ChNDaHJvbWUvOTcuMC40NjkyLjk5Eh4JHPnZyVDpnmQSBQ1ZSoMiEgUNHHpOqRIFDeanSuQSFwmLOdRo7KyeOxIFDTZHxXISBQ0zEFmmEhcJxvlVs6rftUkSBQ2IsVWPEgUNxNLJPA==.txt
+URL2=https://content-autofill.googleapis.com/v1/pages/ChNDaHJvbWUvOTcuMC40NjkyLjk5Eh4JHPnZyVDpnmQSBQ1ZSoMiEgUNHHpOqRIFDeanSuQSFwmLOdRo7KyeOxIFDTZHxXISBQ0zEFmmEhcJxvlVs6rftUkSBQ2IsVWPEgUNxNLJPA==?alt=proto
+FileName3=t75_index.html
+URL3=https://hls.demoblaze.com/index.m3u8
+FileName4=t75_about_demo_hls_600k.html
+URL4=https://hls.demoblaze.com/about_demo_hls_600k.m3u8
+[ProtocolInfo]
+ProtocolId=QTWeb
